@@ -1,0 +1,158 @@
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 375px;
+    width: 100%;
+
+    margin: 0 auto;
+
+    padding-top: 30px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    
+
+    margin: 0 auto 0 110px;
+}
+
+h3 a {
+    color: #FFFFFF;
+}
+
+/* nav button */
+.nav-button {
+    position: relative;
+    z-index: 9;
+    display: block;
+    height: 25px;
+    border: none;
+    padding: 30px 20px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.nav-button:focus,
+.nav-button:active {
+    outline: none;
+}
+
+/* X */
+.nav-button-close .nav-button-icon {
+    background-color: transparent;
+}
+
+.nav-button-close .nav-button-icon::before {
+    transform: rotate(45deg);
+    top: 0;
+    background-color: #135DD8;
+}
+
+.nav-button-close .nav-button-icon::after {
+    transform: rotate(-45deg);
+    top: 0;
+    background-color: #135DD8;
+}
+
+
+/* nav icon */
+.nav-button-icon {
+    display: block;
+    position: relative;
+    background-color: #FFFFFF;
+    width: 16px;
+    height: 2px;
+    border: none;
+}
+
+.nav-button-icon::before {
+    position: absolute;
+    left: 0;
+    top: -6px;
+    content: '';
+    display: block;
+    background-color: #FFFFFF;
+    width: 16px;
+    height: 2px;
+}
+
+.nav-button-icon::after {
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    content: '';
+    display: block;
+    background-color: #FFFFFF;
+    width: 16px;
+    height: 2px;
+}
+
+
+/* mobile nav */
+.mobile-nav {
+    position: fixed;
+    z-index: 8;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: 100%;
+    background-color: rgba(243, 246, 248, 0.9);
+    opacity: 1;
+    padding: 60px 0 20px 20px;
+}
+
+.mobile-nav .nav {
+    display: block;
+    margin-top: 30px;
+}
+
+.mobile-nav .nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mobile-nav .nav ul li {
+    margin: 0;
+    padding: 20px 0;
+}
+
+.mobile-nav .nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.mobile-nav-active {
+    display: flex;
+}
+
+
+/* links */
+.nav li {
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #27272A;
+}
+
+.nav li:not(:last-child) {
+    box-shadow: 0 1px #c4c4c4;
+}
+
+
+/* blur */
+.blur {
+    filter: blur(5px);
+}
+
+.no-scroll {
+    backdrop-filter: grayscale(0.5);
+}
