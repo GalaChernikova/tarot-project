@@ -70,7 +70,7 @@ h2 {
 
 .icon-screen {
     background-image: linear-gradient(#1278E0, #4B97F7);
-    border-radius: none;
+    border-radius: unset;
 
     align-items: center;
 }
@@ -146,6 +146,7 @@ h2 {
 .filter {
     position: absolute;
     top: 168px;
+    z-index: 2;
 }
 
 .card-sun {
@@ -158,6 +159,7 @@ h2 {
 .choose-card-button {
     position: relative;
     bottom: 180px;
+    z-index: 3;
 }
 
 .add-card-header {
