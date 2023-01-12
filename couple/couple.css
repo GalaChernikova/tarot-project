@@ -18,3 +18,34 @@
     margin-bottom: 13px;
 }
 
+.discuss-header {
+    margin-bottom: 133px;
+}
+
+.help-header {
+    margin-bottom: 55px;
+}
+
+.int-emotional-header {
+    margin-bottom: 97px;
+}
+
+.yellow {
+    background: linear-gradient(0deg, #FFF0BC 0%, #E8B503 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.icon-screen-info.heart {
+    margin-bottom: 44px;
+}
+
+.icon-screen-header.no-screen {
+    max-width: 327px;
+}
+
+.decision-header {
+    margin-bottom: 91px;
+}
