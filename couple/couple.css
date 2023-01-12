@@ -1,0 +1,20 @@
+.age-header {
+    margin-bottom: 91px;
+}
+
+.age {
+    margin: 10px auto;
+}
+
+.age:not(:first-child) a {
+    padding: 0 50px;
+}
+
+.age:last-child {
+    margin-bottom: 30px;
+}
+
+.temperament-header {
+    margin-bottom: 13px;
+}
+
