@@ -203,13 +203,13 @@
     margin-bottom: 30px;
 }
 
-h3 {
+.plan-header {
     font-weight: 500;
     font-size: 22px;
     line-height: 32px;
     color: #27272A;
 
-    margin-bottom: 30px;
+    margin: 10px auto 30px;
     text-align: center;
 
     max-width: 327px;
@@ -246,7 +246,7 @@ h3 {
     width: 100%;
 
     z-index: 2;
-    top: 60%;
+    top: 65%;
     height: 100px;
 }
 
