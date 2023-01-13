@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="./../index.css">
     <link rel="stylesheet" href="./../mobile-nav.css">
     <link rel="stylesheet" href="./../test/test.css">
-    <link rel="stylesheet" href="./../couple/couple.css">
-    <link rel="stylesheet" href="./plan.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,39 +45,17 @@
         <h3><a href="./../index.html">Tarot</a></h3>
     </div>
 
-    <div class="main-container test">
-        <img src="./../images/progressbar-4.svg" alt="progressbar" class="progressbar">
+    <div class="main-container icon-screen">
+        <img src="./../images/icon.png">
 
-        <h5>Дополнительная информация</h5>
-        <h2 class="social-header">Введите адрес электронной почты чтобы получить индивидуальный план</h2>
-
-        <form class="email-form">
-            <input type="email" required id="email" placeholder="Email" value="" onkeyup="check()" onkeypress="check()"
-                onchange="check()">
-
-            <div class="checkbox">
-                <input type="checkbox">
-                <p>Получить бесплатный подарок</p>
-            </div>
-        </form>
+        <h2 class="icon-screen-header">Tarot card reading
+            <br>& meanings</h2>
+        <h5 class="icon-screen-info">Horoscope. Numerology. Zodiac</h5>
 
 
-        <div class="button age disabled" id="disabled">
-            <a href="./sun_icon.html" onclick="check()" onchange="check()">Отправить</a>
-        </div>
+        <a href="./price.html">Далее !delete later</a>
     </div>
     </div>
-    
-    <script>
-        function check() {
-            const email = document.getElementById('email');
-            const button = document.getElementById('disabled');
-
-            email.value !="" 
-            ? button.classList.remove('disabled') 
-            : button.classList.add('disabled');
-        }
-    </script>
 
     <script src="./../mobile-nav.js"></script>
 </body>
