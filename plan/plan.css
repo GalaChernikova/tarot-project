@@ -124,7 +124,8 @@
     height: 64px;
 }
 
-.box:focus {
+.box:focus,
+.box:active {
     border: 2px solid #135DD8;
     color: #135DD8;
 }
