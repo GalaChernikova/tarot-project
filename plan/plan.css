@@ -217,7 +217,7 @@ h3 {
 }
 
 .basis-list {
-    max-height: 215px;
+    max-height: 170px;
     overflow: scroll;
     position: relative;
 }
@@ -246,7 +246,8 @@ h3 {
     width: 100%;
 
     z-index: 2;
-    top: 45%;
+    top: 60%;
+    height: 100px;
 }
 
 .user-boxes {
