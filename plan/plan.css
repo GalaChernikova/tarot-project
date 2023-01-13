@@ -192,6 +192,7 @@
 
     margin: 30px auto;
     text-align: start;
+    position: relative;
 }
 
 .plan-basis h4 {
@@ -219,7 +220,7 @@
 .basis-list {
     max-height: 170px;
     overflow: scroll;
-    position: relative;
+    
 }
 
 .basis-list li {
@@ -246,7 +247,7 @@
     width: 100%;
 
     z-index: 2;
-    top: 65%;
+    top: 75%;
     height: 100px;
 }
 
