@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarot</title>
+
+    <link rel="stylesheet" href="./../index.css">
+    <link rel="stylesheet" href="./../mobile-nav.css">
+    <link rel="stylesheet" href="./../test/test.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./../loading-icon/loading-bar.css" />
+    <script type="text/javascript" src="./../loading-icon/loading-bar.js"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <button class="nav-button">
+            <span class="nav-button-icon"></span>
+        </button>
+
+        <div class="mobile-nav">
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Политика конфиденциальности</a></li>
+                    <li><a href="#">Условия эксплуатации</a></li>
+                    <li><a href="#">Условия оплаты</a></li>
+                    <li><a href="#">Условия подписки</a></li>
+                    <li><a href="#">Возврат денег</a></li>
+                    <li><a href="#">Вопросы-Ответы</a></li>
+                    <li><a href="#">Связаться с нами</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <h3><a href="./../index.html">Tarot</a></h3>
+    </div>
+
+    <div class="main-container icon-screen">
+
+        <div id="loader" data-preset="circle" data-value="0" data-transition-in="true" data-type="stroke"
+            data-duration="5" style="width: 144px; height: 144px; margin-bottom: 40px;"></div>
+
+
+        <style type="text/css">
+            .ldBar path.mainline {
+                stroke-width: 6;
+                stroke: #FFFFFF;
+                stroke-linecap: round;
+
+            }
+
+            .ldBar path.baseline {
+                stroke-width: 6;
+                stroke: #6A9ED6;
+                stroke-linecap: round;
+            }
+
+            .ldBar-label {
+                color: #FFFFFF;
+                font-family: 'Alice', serif;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 28px;
+                position: relative;
+                bottom: 62%;
+            }
+        </style>
+
+
+
+        <h5 class="icon-screen-info" id="animated">Анализ данных профилей</h5>
+
+        <script>
+            let textAnimation = document.getElementById('animated');
+            const text1 = "Оценка профилей личностей";
+            const text2 = "Определение положения планет в момент рождения";
+            const text3 = "Составление личного плана";
+            const text4 = "Прогнозирование возможных результатов";
+
+            setTimeout(() => {
+                textAnimation.innerHTML = text1;
+                console.log(textAnimation)
+                setTimeout(() => {
+                    textAnimation.innerHTML = text2;
+                    console.log(textAnimation)
+                    setTimeout(() => {
+                        textAnimation.innerHTML = text3;
+                        console.log(textAnimation)
+                        setTimeout(() => {
+                            textAnimation.innerHTML = text4;
+                            console.log(textAnimation)
+                        }, 1400)
+                    }, 1100)
+                }, 800)
+            }, 500)
+        </script>
+
+        <h2 class="loading-db-header">Создаём идеальный план</h2>
+
+        <h5 class="icon-screen-info">На основе введённых вами данных
+            и большой базы данных ссоздаём индивидуальный план</h5>
+
+        <style>
+            #animated {
+                margin-bottom: 50px;
+            }
+
+            .loading-db-header {
+                max-width: 327px;
+                width: 100%;
+                color: #FFFFFF;
+                text-align: center;
+                margin-left: 0;
+                margin-bottom: 40px;
+            }
+
+            .icon-screen-info {
+                margin-bottom: 50px;
+            }
+        </style>
+
+        <a href="./email_form.html">Далее !delete later</a>
+    </div>
+
+    <script>
+        var bar1 = new ldBar("#loader");
+        var bar2 = document.getElementById('loader').ldBar;
+        bar1.set(100);
+    </script>
+
+
+
+    <script src="./../mobile-nav.js"></script>
+</body>
+
+</html>

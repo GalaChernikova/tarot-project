@@ -1,0 +1,63 @@
+.social-header {
+    margin-bottom: 13px;
+}
+
+.disabled {
+    background: linear-gradient(180deg, #3F84F7 0%, #135DD8 100%);
+    filter: opacity(0.2);
+
+    pointer-events: none;
+}
+
+.email-form {
+    margin-top: 43px;
+}
+
+#email {
+    max-width: 327px;
+    width: 100%;
+    height: 58px;
+
+    
+    margin: 5px auto;
+
+    border: 2px solid #E6E8EB;
+    background-color: transparent;
+    border-radius: 16px;
+
+    text-align: center;
+
+    font-size: 18px;
+    line-height: 28px;
+    color: #ADB0B2;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    max-width: 327px;
+    width: 100%;
+
+    margin: 20px auto 40px;
+}
+
+.checkbox input {
+    margin-right: 20px;
+}
+
+.checkbox input:checked {
+    background: linear-gradient(180deg, #3F84F7 0%, #135DD8 100%);
+    border-radius: 8px;
+}
+
+.checkbox p {
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #27272A;
+}
