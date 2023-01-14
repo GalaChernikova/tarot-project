@@ -96,6 +96,11 @@ a {
     border-top-right-radius: 35px;
 }
 
+.cards img {
+    max-width: 375px;
+    width: 100%;
+}
+
 h1 {
     margin: 20px auto;
 
