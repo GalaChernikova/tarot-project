@@ -49,4 +49,5 @@ body {
 
 .swiper-slide {
     width: 60%;
+    background: transparent;
 }
