@@ -97,17 +97,21 @@ h3 a {
 .mobile-nav {
     position: fixed;
     z-index: 8;
-    display: none;
     flex-direction: column;
     justify-content: space-between;
 
     top: 0;
     left: 0;
-    width: 320px;
+    width: 375px;
     height: 100%;
     background-color: rgba(243, 246, 248, 0.9);
     opacity: 1;
     padding: 60px 0 20px 20px;
+
+    visibility: hidden;
+    opacity: 0;
+
+    
 }
 
 .mobile-nav .nav {
@@ -131,7 +135,9 @@ h3 a {
 }
 
 .mobile-nav-active {
-    display: flex;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s;
 }
 
 
