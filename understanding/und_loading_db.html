@@ -94,7 +94,7 @@
                 color: #FFFFFF;
                 text-align: center;
                 margin-left: 0;
-                margin-bottom: 69px;
+                margin-bottom: 150px;
             }
 
             .yellow {
@@ -106,13 +106,17 @@
             }
         </style>
 
-        <a href="./und_discuss.html" style="margin-top: 100px;">Далее</a>
     </div>
 
     <script>
         var bar1 = new ldBar("#loader");
         var bar2 = document.getElementById('loader').ldBar;
         bar1.set(100);
+
+        //заменить на нужный url
+        setTimeout(function () {
+            window.open("./und_discuss.html", "_self");
+        }, 5000);
     </script>
 
     <script src="./../mobile-nav.js"></script>

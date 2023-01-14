@@ -129,17 +129,21 @@
             }
 
             .icon-screen-info {
-                margin-bottom: 50px;
+                margin-bottom: 200px;
             }
         </style>
 
-        <a href="./email_form.html"  style="margin-top: 100px;">Далее</a>
     </div>
 
     <script>
         var bar1 = new ldBar("#loader");
         var bar2 = document.getElementById('loader').ldBar;
         bar1.set(100);
+
+        //заменить на нужный url
+        setTimeout(function () {
+            window.open("./email_form.html", "_self");
+        }, 5000);
     </script>
 
 
