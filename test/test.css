@@ -175,6 +175,9 @@ h2 {
 
 
 .add-card-button {
+    display: flex;
+    flex-direction: column;
+    
     position: relative;
     bottom: 145px;
     z-index: 3;

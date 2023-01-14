@@ -122,17 +122,19 @@ h1 {
     margin: 32px auto 30px;
 }
 
-.button a {
+.button .button-text {
     font-size: 18px;
     line-height: 28px;
     color: #FFFFFF; 
-
-    padding: 0 100px;
 }
 
 
 .button:last-child {
     margin-bottom: 150px !important;
+}
+
+.wrapper {
+    padding: 0;
 }
 
 
