@@ -110,7 +110,7 @@ h2 {
     background-image: linear-gradient(#FFFFFF, #E9F1FF);
 }
 
-.icon-screen-button a {
+.icon-screen-button .icon-button-text {
     color: #135DD8;
 }
 
