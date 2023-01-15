@@ -122,10 +122,6 @@ h2 {
     margin: 10px auto;
 }
 
-.goal:not(:first-child) a {
-    padding: 0 50px;
-}
-
 .goal:last-child {
     margin-bottom: 30px;
 }
