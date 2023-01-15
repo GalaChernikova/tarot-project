@@ -136,6 +136,8 @@ h3 a {
     visibility: visible;
     opacity: 1;
     transition: opacity 0.5s;
+
+    padding-left: 50px;
 }
 
 
