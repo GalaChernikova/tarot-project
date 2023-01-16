@@ -92,6 +92,7 @@ a {
 }
 
 .cards {
+    background-image: url("./images/cards-backgr.svg");
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
 }
