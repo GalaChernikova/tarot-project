@@ -92,15 +92,20 @@ a {
 }
 
 .cards {
-    background-image: url("./images/cards-backgr.svg");
+    
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
 }
 
-.cards img {
-    max-width: 375px;
-    width: 100%;
+.choose-cards-screen {
+    flex-direction: column;
 }
+
+.cards-main {
+    background-image: url("./images/cards-backgr.svg");
+}
+
+
 
 h1 {
     margin: 20px auto;
