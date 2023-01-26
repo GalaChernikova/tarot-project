@@ -21,6 +21,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" type="text/css" href="./../loading-icon/loading-bar.css">
+    <link rel="stylesheet" href="./../progressbar.css">
+
 </head>
 
 <body>
@@ -47,7 +50,20 @@
     </div>
 
     <div class="main-container test">
-        <img src="./../images/progressbar-2.svg" alt="progressbar-1" class="progressbar">
+        <div class="progress-bar progress-bar-2">
+            <div class="number-active">
+                <div class="number-active-item">1</div>
+                <div class="number-active-item">2</div>
+            </div>
+
+            <div class="ldBar" data-value="50" data-preset="line" style="width: 100%; height: auto;">
+            </div>
+
+            <div class="number-next">
+                <div class="number-next-item">3</div>
+                <div class="number-next-item">4</div>
+            </div>
+        </div>
 
         <h5>Профиль вашего партнёра</h5>
         <h2 class="discuss-header">Довольны ли вы тем,<br>
@@ -67,6 +83,7 @@
     </div>
 
     <script src="./../mobile-nav.js"></script>
+    <script type="text/javascript" src="./../loading-icon/loading-bar.js"></script>
 </body>
 
 </html>
