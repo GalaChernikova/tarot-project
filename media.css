@@ -3,7 +3,7 @@
 */
 
 /* 428 x 928 */
-/* @media (min-width: 428px)  and (min-height: 928px){
+@media (max-width: 428px) and (max-height: 928px) {
     body {
         width: 428px;
         height: 928px;
@@ -251,38 +251,43 @@
     .partner-discuss-header {
         margin-bottom: 225px;
     }
-    .partner-treat-header{
+
+    .partner-treat-header {
         margin-bottom: 225px;
     }
-    .partner-help-header{
+
+    .partner-help-header {
         margin-bottom: 67px;
     }
-    .partner-decision-header{
+
+    .partner-decision-header {
         margin-bottom: 100px;
     }
 
-    .new-header{
+    .new-header {
         margin-bottom: 137px;
     }
-    .next-db-header{
+
+    .next-db-header {
         margin-bottom: 263px !important;
     }
 
-    .past-header{
+    .past-header {
         margin-bottom: 137px;
     }
 
-    .eye-header{
+    .eye-header {
         margin-bottom: 50px !important;
     }
-    .co-decision-header{
+
+    .co-decision-header {
         margin-bottom: 63px;
     }
-} */
+}
 
 
 /* 428 x 926 */
-/* @media (min-width: 428px)  and (min-height: 926px){
+@media (max-width: 428px) and (max-height: 926px) {
     body {
         width: 428px;
         height: 926px;
@@ -293,33 +298,11 @@
         width: 100%;
         margin-top: 60px;
     }
-
-    h1 {
-        margin: 90px auto 45px;
-        font-weight: 600;
-        font-size: 35px;
-    }
-
-    .birthdate-header {
-        margin-bottom: 119px;
-    }
-
-    .birthtime-header {
-        margin-bottom: 229px;
-    }
-
-    .time-input-header {
-        margin-bottom: 107px;
-    }
-
-    .icon-screen-header {
-        margin-bottom: 19px;
-    }
-} */
+}
 
 
 /* 414 x 896 */
-/* @media (min-width: 414px) and (min-height: 896px) {
+@media (max-width: 414px) and (max-height: 896px) {
     body {
         width: 414px;
         height: 896px;
@@ -332,309 +315,206 @@
     }
 
     h1 {
-        margin: 90px auto 45px;
-        font-weight: 600;
-        font-size: 35px;
+        margin-top: 8px;
     }
 
-    h5 {
-        font-size: 20px;
-        margin-bottom: 80px;
-
-    }
-
-    .button {
-        max-width: 345px;
-        width: 100%;
-        padding: 20px 0;
-    }
-
-    .button .button-text {
-        font-size: 22px;
-    }
-
-
-    .header {
-        max-width: 428px;
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .nav li {
-        font-size: 20px;
-        line-height: 30px;
-
-    }
-
-    h3 {
-        margin-left: 130px;
-    }
-
-    .main-container.test {
-        margin-top: 0;
-    }
-
-    .progress-bar {
-        margin-bottom: 0;
-    }
-
-    .ldBar {
-        width: 200px !important;
-        padding-top: 5px;
-    }
-
-    .number-active-item,
-    .number-next-item {
-        font-size: 15px;
-        line-height: 30px;
-        width: 30px;
-        height: 30px;
-    }
-
-    .test h5 {
-        margin: 40px 0 40px 30px;
-    }
-
-    h2 {
-        margin-left: 30px;
-        font-size: 32px;
-        margin-bottom: 265px;
-    }
-
-    .birthdate-header {
-        margin-bottom: 119px;
-    }
-
-    .birth {
-        max-width: 345px;
-        width: 100%;
-    }
-
-    .birth input {
-        max-width: 345px !important;
-        width: 100%;
-        font-size: 22px;
-        margin: 10px auto;
-    }
-
-    .birthtime-header {
-        margin-bottom: 229px;
-    }
-
-    .time-input-header {
-        margin-bottom: 107px;
-    }
-
-    .icon-screen-header {
-        margin-bottom: 19px;
-    }
-
-    .icon-screen-info {
-        font-size: 20px;
-        margin-bottom: 115px;
-    }
-
-    .goal {
-        margin: 15px auto;
-    }
-
-    .goals-header {
-        margin-bottom: 148px;
-    }
-
-    .choose-card-header {
-        max-width: 365px !important;
-        width: 100%;
-        margin-bottom: 58px;
-    }
-
-    #choose-card-button {
-        margin-bottom: 0 !important;
-    }
-
-    .swiper {
-        width: 428px;
-    }
-
-    .cards,
-    .cards img {
-        max-width: 428px;
-        width: 100%;
-    }
-
-    .add-card-header {
-        margin-bottom: 35px;
-    }
-
-    #add-card-button-last {
-        margin-bottom: 0 !important;
-    }
-
-    .age-header {
-        margin-bottom: 138px;
-    }
-
-    .temperament-header {
-        margin-bottom: 50px;
-        max-width: 345px;
-    }
-
-    .loading-db-header {
-        max-width: 370px !important;
-        line-height: 45px;
-        margin-bottom: 218px !important;
-    }
-
-    .discuss-header {
-        margin-bottom: 189px;
-        max-width: 353px;
-    }
-
-    #mut-discuss-header {
-        margin-bottom: 225px;
-    }
-
-    .help-header {
-        margin-bottom: 101px;
-    }
-
-    .int-emotional-header {
-        max-width: 360px;
-        margin-bottom: 153px;
-    }
-
-    .icon-screen-info.heart {
-        margin-bottom: 80px;
-    }
-
-    .decision-header {
-        margin-bottom: 138px;
-    }
-
-    .social-header {
-        margin-bottom: 100px;
-    }
-
-    .email-header {
-        margin-bottom: 53px;
-    }
-
-    .icon-screen {
-        max-width: 428px !important;
-        width: 100%;
-    }
-
-    .icon-screen img {
-        margin-bottom: 110px;
-    }
-
-    .sun-header {
-        margin-bottom: 124px;
-    }
-
-    .price-info p {
-        font-size: 20px;
-        line-height: 26px;
-    }
-
-    .popular-choice {
-        margin-bottom: 90px;
-    }
-
-    .trial_header {
-        margin: 60px auto;
-        font-size: 22px;
-    }
-
-    .price-description {
-        font-size: 16px;
-        margin-bottom: 190px;
-    }
-
-    .partner-birthdate-header {
-        margin-bottom: 82px;
-    }
-
-    .partner-birthtime-header {
-        margin-bottom: 192px;
-    }
-
-    .partner-input-birthtime-header {
-        margin-bottom: 70px;
-    }
-
-    .und-temp-header {
-        margin-bottom: 84px;
-    }
-
-    .partner-discuss-header {
-        margin-bottom: 225px;
-    }
-    .partner-treat-header{
-        margin-bottom: 225px;
-    }
-    .partner-help-header{
-        margin-bottom: 67px;
-    }
-    .partner-decision-header{
-        margin-bottom: 100px;
-    }
-
-    .new-header{
-        margin-bottom: 137px;
-    }
-    .next-db-header{
-        margin-bottom: 263px !important;
-    }
-
-    .past-header{
-        margin-bottom: 137px;
-    }
-
-    .eye-header{
-        margin-bottom: 50px !important;
-    }
-    .co-decision-header{
-        margin-bottom: 63px;
-    }
-} */
+}
 
 
 /* 412 x 915 */
+@media (max-width: 412px) and (max-height: 915px) {
+    body {
+        width: 412px;
+        height: 915px;
+    }
+
+    .main-container {
+        max-width: 412px;
+        width: 100%;
+
+    }
+}
+
 /* 412 x 883 */
+@media (max-width: 412px) and (max-height: 883px) {
+    body {
+        width: 412px;
+        height: 883px;
+    }
+
+    .main-container {
+        max-width: 412px;
+        width: 100%;
+    }
+}
+
 
 /* 393 x 851 */
-/* 390 x 844 */
-/* 375 x 812 */
+@media (max-width: 393px) {
+    body {
+        width: 393px;
+        height: 851px;
+    }
 
+    .main-container {
+        max-width: 393px;
+        width: 100%;
+
+    }
+
+    h2 {
+        font-size: 26px;
+        max-width: 350px !important;
+        width: 100%;
+    }
+
+    h3 {
+        margin-left: 114px;
+    }
+
+    .progress-bar {
+        max-width: 336px;
+        width: 100%;
+    }
+
+    .ldBar {
+        width: 142px !important;
+        padding-top: 5px;
+    }
+
+    .choose-card-header {
+        max-width: 335px !important;
+        width: 100%;
+
+    }
+
+    .swiper {
+        width: 375px;
+    }
+
+}
+
+
+/* 390 x 844 */
+@media (max-width: 390px) {
+    body {
+        width: 390px;
+        height: 844px;
+    }
+
+    .main-container {
+        max-width: 390px;
+        width: 100%;
+    }
+}
+
+/* 375 x 812 */
+@media (max-width: 375px) and (max-height: 812px) {
+    body {
+        width: 375px;
+        height: 812px;
+    }
+
+    .main-container {
+        max-width: 375px;
+        width: 100%;
+    }
+    h2 {
+        
+        max-width: 330px !important;
+        width: 100%;
+    }
+}
 
 /* 375 x 635 standard */
-/* @media (min-width: 375px) and (min-height: 635px){
+@media (max-width: 375px) and (max-height: 635px) {
     body {
         width: 375px;
         height: 635px;
     }
-} */
+
+    .main-container {
+        max-width: 375px;
+        width: 100%;
+    }
+}
 
 /* 360 x 880 */
-/* 360 x 804 */
-/* 360 x 800 */
-/* 360 x 780 */
-/* 360 x 772 */
-/* 320 x 568 */
-@media (min-width: 320px) and (min-height: 568px) {
+@media (max-width: 360px) and (max-height: 880px) {
     body {
-        width: 320px;
-        height: 568px;
+        width: 360px;
+        height: 880px;
     }
 
     .main-container {
-        width: 320px;
+        max-width: 360px;
+        width: 100%;
         margin-top: 20px;
-        height: 548px;
+
+    }
+}
+
+/* 360 x 804 */
+@media (max-width: 360px) and (max-height: 804px) {
+    body {
+        width: 360px;
+        height: 804px;
     }
 
-    h1 {
+    .main-container {
+        max-width: 360px;
+        width: 100%;
+        margin-top: 20px;
+
+    }
+}
+
+/* 360 x 800 */
+@media (max-width: 360px) and (max-height: 800px) {
+    body {
+        width: 360px;
+        height: 800px;
+    }
+
+    .main-container {
+        max-width: 360px;
+        width: 100%;
+        margin-top: 20px;
+
+    }
+}
+
+/* 360 x 780 */
+@media (max-width: 360px) and (max-height: 780px) {
+    body {
+        width: 360px;
+        height: 780px;
+    }
+
+    .main-container {
+        max-width: 360px;
+        width: 100%;
+        margin-top: 20px;
+
+    }
+}
+
+
+/* 360 x 772 */
+@media (max-width: 360px) and (max-height: 772px) {
+    body {
+        width: 360px;
+        height: 772px;
+    }
+
+    .main-container {
+        max-width: 360px;
+        width: 100%;
+        margin-top: 20px;
+
+    }
+
+    /* h1 {
         font-size: 25px;
         line-height: 30px;
         max-width: 280px;
@@ -855,6 +735,275 @@
         font-size: 15px;
     }
     .price-description{
+        max-width: 280px;
+        font-weight: 300;
+        font-size: 14px;
+        margin-bottom: 90px;
+    } */
+}
+
+
+/* 320 x 568 */
+@media (max-width: 350px) {
+    body {
+        width: 320px;
+        height: 568px;
+    }
+
+    .main-container {
+        max-width: 320px;
+        width: 100%;
+        margin-top: 20px;
+
+    }
+
+    h1 {
+        font-size: 25px;
+        line-height: 30px;
+        max-width: 280px;
+        width: 100%;
+        margin-bottom: 52px;
+    }
+
+    h5 {
+        max-width: 280px;
+
+    }
+
+    .main-h5 {
+        align-self: center;
+    }
+
+    .button {
+        max-width: 280px;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .button:last-child {
+        margin-bottom: 68px !important;
+    }
+
+    .header {
+        padding-top: 0;
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .nav-button {
+        padding: 20px;
+    }
+
+    .mobile-nav {
+        padding: 0 0 0 20px !important;
+        width: 300px;
+    }
+
+    .mobile-nav .nav ul li {
+        padding: 10px 0;
+    }
+
+    h3 {
+        margin-left: 80px;
+    }
+
+    .progress-bar {
+        max-width: 270px;
+        width: 100%;
+    }
+
+    .number-active {
+        margin-right: 10px;
+    }
+
+    .number-next {
+        margin-left: 10px;
+    }
+
+    .ldBar {
+        width: 140px !important;
+    }
+
+    h2 {
+        margin-bottom: 132px;
+        max-width: 280px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .birthdate-header {
+        margin-bottom: 24px;
+    }
+
+    .birth {
+        max-width: 280px;
+        width: 100%;
+    }
+
+    .birth input {
+        font-size: 16px;
+        height: 45px;
+    }
+
+    .birthtime-header {
+        margin-bottom: 103px;
+    }
+
+    .time {
+        margin: 85px auto;
+        margin-bottom: 41px;
+    }
+
+
+    .icon-screen-info {
+        max-width: 300px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .goal {
+        margin: 5px auto;
+    }
+
+    .goals-header {
+        margin-bottom: 60px;
+    }
+
+    .cards {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .swiper-slide {
+        width: 50%;
+    }
+
+    .choose-card-button {
+        bottom: 135px;
+    }
+
+    .main-container.test {
+        height: 508px;
+    }
+
+    .filter {
+        top: 90px;
+    }
+
+    .add-card-header {
+        margin-bottom: 53px;
+    }
+
+    .age {
+        margin: 10px auto !important;
+    }
+
+    .age-header {
+        margin-bottom: 52px;
+    }
+
+    .int-emotional-header {
+        max-width: 280px;
+
+    }
+
+    .loading-db-header {
+        max-width: 288px !important;
+        width: 100%;
+    }
+
+    .icon-screen-header {
+        max-width: 280px;
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .icon-screen-header.no-screen {
+        max-width: 295px;
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    #email {
+        max-width: 280px;
+        width: 100%;
+        font-size: 16px;
+        height: 45px;
+    }
+
+    .checkbox {
+        max-width: 280px;
+        width: 100%;
+
+    }
+
+    .checkbox p {
+        font-size: 15px;
+    }
+
+    .price-info {
+        max-width: 280px;
+        width: 100%;
+
+    }
+
+    .price-info p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .price-boxes {
+        max-width: 280px;
+        width: 100%;
+    }
+
+    .box {
+        width: 63px;
+        height: 49px;
+        font-size: 16px;
+    }
+
+    .special {
+        margin-top: 20px;
+    }
+
+    .plan-basis {
+        max-width: 280px;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .basis-list li {
+
+        max-width: 250px;
+        margin: 5px;
+    }
+
+    .basis-list li img {
+        margin-right: 10px;
+    }
+
+    .basis-list li p {
+        font-size: 15px;
+        line-height: 16px;
+    }
+
+    .user-boxes {
+        max-width: 300px;
+    }
+
+    .total-price {
+        max-width: 280px;
+    }
+
+    .total-price-info .total,
+    .promocode,
+    .promo-name,
+    .economy {
+        font-size: 15px;
+    }
+
+    .price-description {
         max-width: 280px;
         font-weight: 300;
         font-size: 14px;
