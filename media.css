@@ -145,11 +145,11 @@
         width: 100%;
     }
 
-    .add-card-header{
+    .add-card-header {
         margin-bottom: 35px;
     }
 
-    #add-card-button-last{
+    #add-card-button-last {
         margin-bottom: 0 !important;
     }
 
@@ -165,7 +165,7 @@
     .loading-db-header {
         max-width: 370px !important;
         line-height: 45px;
-        margin-bottom: 130px !important;
+        margin-bottom: 218px !important;
     }
 
     .discuss-header {
@@ -173,7 +173,7 @@
         max-width: 353px;
     }
 
-    #mut-discuss-header{
+    #mut-discuss-header {
         margin-bottom: 225px;
     }
 
@@ -211,7 +211,7 @@
         margin-bottom: 110px;
     }
 
-    .sun-header{
+    .sun-header {
         margin-bottom: 124px;
     }
 
@@ -232,5 +232,52 @@
     .price-description {
         font-size: 16px;
         margin-bottom: 190px;
+    }
+
+    .partner-birthdate-header {
+        margin-bottom: 82px;
+    }
+
+    .partner-birthtime-header {
+        margin-bottom: 192px;
+    }
+
+    .partner-input-birthtime-header {
+        margin-bottom: 70px;
+    }
+
+    .und-temp-header {
+        margin-bottom: 84px;
+    }
+
+    .partner-discuss-header {
+        margin-bottom: 225px;
+    }
+    .partner-treat-header{
+        margin-bottom: 225px;
+    }
+    .partner-help-header{
+        margin-bottom: 67px;
+    }
+    .partner-decision-header{
+        margin-bottom: 100px;
+    }
+
+    .new-header{
+        margin-bottom: 137px;
+    }
+    .next-db-header{
+        margin-bottom: 263px !important;
+    }
+
+    .past-header{
+        margin-bottom: 137px;
+    }
+
+    .eye-header{
+        margin-bottom: 50px !important;
+    }
+    .co-decision-header{
+        margin-bottom: 63px;
     }
 }
