@@ -419,8 +419,9 @@
         max-width: 375px;
         width: 100%;
     }
+
     h2 {
-        
+
         max-width: 330px !important;
         width: 100%;
     }
@@ -747,7 +748,7 @@
 @media (max-width: 350px) {
     body {
         width: 320px;
-        height: 568px;
+        height: 437px;
     }
 
     .main-container {
@@ -758,11 +759,11 @@
     }
 
     h1 {
-        font-size: 25px;
-        line-height: 30px;
+        font-size: 23px;
+        line-height: 23px;
         max-width: 280px;
         width: 100%;
-        margin-bottom: 52px;
+        margin-bottom: 10px;
     }
 
     h5 {
@@ -772,16 +773,28 @@
 
     .main-h5 {
         align-self: center;
+        font-size: 16px;
+        margin: 0;
+        margin-bottom: 8px;
     }
 
     .button {
         max-width: 280px;
         width: 100%;
-        margin: 20px auto;
+        margin: 5px auto !important;
+
+
     }
 
+    .button .button-text {
+        font-size: 16px;
+        line-height: 20px;
+
+    }
+
+
     .button:last-child {
-        margin-bottom: 68px !important;
+        margin-bottom: 15px !important;
     }
 
     .header {
@@ -795,7 +808,7 @@
     }
 
     .mobile-nav {
-        padding: 0 0 0 20px !important;
+        padding: 0 0 20px 20px !important;
         width: 300px;
     }
 
@@ -825,32 +838,44 @@
     }
 
     h2 {
-        margin-bottom: 132px;
-        max-width: 280px;
-        font-size: 20px;
-        line-height: 30px;
+        margin-bottom: 130px;
+        max-width: 280px !important;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+
+    .test h5 {
+        margin: 10px 0 10px 30px;
+        font-size: 14px !important;
     }
 
     .birthdate-header {
-        margin-bottom: 24px;
+        margin-bottom: 38px;
     }
 
     .birth {
         max-width: 280px;
         width: 100%;
+        margin-bottom: 0;
     }
 
     .birth input {
         font-size: 16px;
         height: 45px;
+        margin: 0 auto 5px;
     }
 
     .birthtime-header {
-        margin-bottom: 103px;
+        margin-bottom: 110px;
+    }
+
+    .time-input-header {
+        margin-bottom: 0;
     }
 
     .time {
-        margin: 85px auto;
+        margin: 87px auto;
         margin-bottom: 41px;
     }
 
@@ -859,6 +884,11 @@
         max-width: 300px;
         font-size: 16px;
         line-height: 16px;
+        margin-bottom: 45px;
+    }
+
+    .icon-screen img {
+        margin-bottom: 10px;
     }
 
     .goal {
@@ -869,8 +899,18 @@
         margin-bottom: 60px;
     }
 
-    .cards {
-        max-width: 320px;
+    .choose-card-header {
+        margin-bottom: 20px;
+        max-width: 250px !important;
+    }
+
+    .swiper {
+        width: 300px;
+    }
+
+    .swiper-slide,
+    .swiper-slide img {
+        width: 120px !important;
         width: 100%;
     }
 
@@ -879,37 +919,82 @@
     }
 
     .choose-card-button {
-        bottom: 135px;
+        bottom: 85px;
     }
 
-    .main-container.test {
-        height: 508px;
-    }
+
 
     .filter {
-        top: 90px;
+        top: 76px;
+        height: 140px;
+    }
+
+    .filter-screen {
+        height: 396px;
+        position: fixed;
     }
 
     .add-card-header {
-        margin-bottom: 53px;
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+
+    .add-card-button {
+        bottom: 155px;
+    }
+
+    .add-card-h5 {
+        margin: 10px 0px 10px 30px !important;
+    }
+
+    .add-cards-filter {
+        top: 115px;
     }
 
     .age {
-        margin: 10px auto !important;
+        margin: 5px auto !important;
     }
 
     .age-header {
-        margin-bottom: 52px;
+        margin-bottom: 40px;
+    }
+
+    .temperament-header {
+        margin-bottom: 10px;
+    }
+
+    .temp-button {
+        padding: 15px 0;
     }
 
     .int-emotional-header {
         max-width: 280px;
-
+        margin-bottom: 70px;
     }
 
     .loading-db-header {
         max-width: 288px !important;
         width: 100%;
+        line-height: 20px;
+        margin-bottom: 62px !important;
+    }
+
+    .discuss-header {
+        margin-bottom: 90px;
+        max-width: 353px
+    }
+
+    #mut-discuss-header {
+        margin-bottom: 110px;
+    }
+
+    .help-header {
+        margin-bottom: 20px;
+    }
+
+    .int-imp-header {
+        margin-bottom: 40px;
     }
 
     .icon-screen-header {
@@ -918,10 +1003,35 @@
         margin-bottom: 35px;
     }
 
+
     .icon-screen-header.no-screen {
         max-width: 295px;
         width: 100%;
         margin-bottom: 35px;
+    }
+
+    .icon-screen-info.heart {
+        margin-bottom: 45px;
+    }
+
+    .decision-header {
+        margin-bottom: 40px;
+    }
+
+    .social-header {
+        margin-bottom: 12px;
+    }
+
+    .plan-db-header {
+        margin-bottom: 20px !important;
+    }
+
+    .plan-load-info {
+        margin-bottom: 50px !important;
+    }
+
+    .email-form {
+        margin-top: 5px;
     }
 
     #email {
@@ -941,10 +1051,22 @@
         font-size: 15px;
     }
 
+    .sun-icon {
+        margin-top: 20px !important;
+    }
+
+    .sun-info {
+        margin-bottom: 111px !important;
+    }
+
+    .price-info p:not(:last-child) {
+        margin-bottom: 5px;
+    }
+
     .price-info {
         max-width: 280px;
         width: 100%;
-
+        margin-bottom: 10px;
     }
 
     .price-info p {
@@ -955,6 +1077,7 @@
     .price-boxes {
         max-width: 280px;
         width: 100%;
+        margin-bottom: 15px;
     }
 
     .box {
@@ -963,14 +1086,36 @@
         font-size: 16px;
     }
 
+    .popular-choice {
+        margin-bottom: 0;
+    }
+
     .special {
         margin-top: 20px;
+    }
+
+    .white-bold {
+        margin-bottom: 5px;
     }
 
     .plan-basis {
         max-width: 280px;
         width: 100%;
         margin: 20px auto;
+    }
+
+    .plan-basis h4 {
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .plan-header {
+        margin-bottom: 10px;
+    }
+
+    .basis-list {
+        max-height: 120px;
+        overflow: scroll;
     }
 
     .basis-list li {
@@ -986,6 +1131,10 @@
     .basis-list li p {
         font-size: 15px;
         line-height: 16px;
+    }
+
+    .trial_header {
+        margin: 20px auto;
     }
 
     .user-boxes {
@@ -1007,7 +1156,31 @@
         max-width: 280px;
         font-weight: 300;
         font-size: 14px;
-        margin-bottom: 90px;
+        margin-bottom: 8px;
     }
 
+    .partner-birthdate-header{
+        margin-bottom: 18px;
+    }
+    .partner-discuss-header{
+        margin-bottom: 110px;
+    }
+    .partner-decision-header{
+        margin-bottom: 25px;
+    }
+    .new-header{
+        margin-bottom: 40px;
+    }
+    .past-header{
+        margin-bottom: 40px;
+    }
+    .next-int-em-header{
+        margin-bottom: 90px;
+    }
+    .eye-header {
+        margin-bottom: 25px !important;
+    }
+    .co-decision-header{
+        margin-bottom: 20px;
+    }
 }

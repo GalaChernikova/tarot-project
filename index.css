@@ -147,9 +147,9 @@ h1 {
 }
 
 
-.button:last-child {
+/* .button:last-child {
     margin-bottom: 150px !important;
-}
+} */
 
 .wrapper {
     padding: 0;
