@@ -3,7 +3,7 @@
 */
 
 /* 428 x 928 */
-@media (max-width: 428px)  and (max-height: 928px){
+/* @media (min-width: 428px)  and (min-height: 928px){
     body {
         width: 428px;
         height: 928px;
@@ -243,9 +243,6 @@
         margin-bottom: 192px;
     }
 
-    /* .partner-input-birthtime-header {
-        margin-bottom: 70px;
-    } */
 
     .und-temp-header {
         margin-bottom: 84px;
@@ -281,11 +278,11 @@
     .co-decision-header{
         margin-bottom: 63px;
     }
-}
+} */
 
 
 /* 428 x 926 */
-@media (max-width: 428px)  and (max-height: 926px){
+/* @media (min-width: 428px)  and (min-height: 926px){
     body {
         width: 428px;
         height: 926px;
@@ -318,11 +315,11 @@
     .icon-screen-header {
         margin-bottom: 19px;
     }
-}
+} */
 
 
 /* 414 x 896 */
-@media (max-width: 414px) {
+/* @media (min-width: 414px) and (min-height: 896px) {
     body {
         width: 414px;
         height: 896px;
@@ -600,17 +597,24 @@
     .co-decision-header{
         margin-bottom: 63px;
     }
-}
+} */
+
+
 /* 412 x 915 */
 /* 412 x 883 */
 
 /* 393 x 851 */
 /* 390 x 844 */
 /* 375 x 812 */
-/* 375 x 755 standard */
-@media (max-width: 375px) and (max-height: 755px){
-    
-}
+
+
+/* 375 x 635 standard */
+/* @media (min-width: 375px) and (min-height: 635px){
+    body {
+        width: 375px;
+        height: 635px;
+    }
+} */
 
 /* 360 x 880 */
 /* 360 x 804 */
@@ -618,3 +622,243 @@
 /* 360 x 780 */
 /* 360 x 772 */
 /* 320 x 568 */
+@media (min-width: 320px) and (min-height: 568px) {
+    body {
+        width: 320px;
+        height: 568px;
+    }
+
+    .main-container {
+        width: 320px;
+        margin-top: 20px;
+        height: 548px;
+    }
+
+    h1 {
+        font-size: 25px;
+        line-height: 30px;
+        max-width: 280px;
+        width: 100%;
+        margin-bottom: 52px;
+    }
+
+    h5 {
+        max-width: 280px;
+    }
+
+    .button {
+        max-width: 280px;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .button:last-child {
+        margin-bottom: 68px !important;
+    }
+
+    .header {
+        padding-top: 0;
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .nav-button {
+        padding: 20px;
+    }
+
+    .mobile-nav {
+        padding: 0 0 0 20px !important;
+        width: 300px;
+    }
+
+    .mobile-nav .nav ul li {
+        padding: 10px 0;
+    }
+
+    h3 {
+        margin-left: 80px;
+    }
+
+    .progress-bar {
+        max-width: 270px;
+        width: 100%;
+    }
+
+    .number-active {
+        margin-right: 10px;
+    }
+
+    .number-next {
+        margin-left: 10px;
+    }
+
+    .ldBar {
+        width: 140px !important;
+    }
+
+    h2 {
+        margin-bottom: 132px;
+        max-width: 280px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .birthdate-header {
+        margin-bottom: 24px;
+    }
+
+    .birth {
+        max-width: 280px;
+        width: 100%;
+    }
+
+    .birth input {
+        font-size: 16px;
+        height: 45px;
+    }
+
+    .birthtime-header {
+        margin-bottom: 103px;
+    }
+
+    .time {
+        margin: 85px auto;
+        margin-bottom: 41px;
+    }
+
+
+    .icon-screen-info {
+        max-width: 300px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .goal {
+        margin: 5px auto;
+    }
+
+    .goals-header {
+        margin-bottom: 60px;
+    }
+
+    .cards {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .swiper-slide {
+        width: 50%;
+    }
+    .choose-card-button{
+        bottom: 135px;
+    }
+
+    .main-container.test{
+        height: 508px;
+    }
+
+    .filter{
+        top: 90px;
+    }
+    .add-card-header {
+        margin-bottom: 53px;
+    }
+    .age {
+        margin: 10px auto !important;
+    }
+    .age-header {
+        margin-bottom: 52px;
+    }
+    .int-emotional-header {
+        max-width: 280px;
+        
+    }
+    .loading-db-header{
+        max-width: 288px !important;
+        width: 100%;
+    }
+
+    .icon-screen-header{
+        max-width: 280px;
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .icon-screen-header.no-screen {
+        max-width: 295px;
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    #email{
+        max-width: 280px;
+        width: 100%;
+        font-size: 16px;
+        height: 45px;
+    }
+    .checkbox{
+        max-width: 280px;
+        width: 100%;
+        
+    }
+    .checkbox p{
+        font-size: 15px;
+    }
+    .price-info{
+        max-width: 280px;
+        width: 100%;
+
+    }
+    .price-info p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .price-boxes{
+        max-width: 280px;
+        width: 100%;
+    }
+    .box{
+        width: 63px;
+    height: 49px;
+    font-size: 16px;
+    }
+
+    .special{
+        margin-top: 20px;
+    }
+    .plan-basis {
+        max-width: 280px;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .basis-list li{
+        
+        max-width: 250px;
+        margin: 5px;
+    }
+    .basis-list li img {
+        margin-right: 10px;
+    }
+    .basis-list li p{
+        font-size: 15px;
+    line-height: 16px;
+    }
+    .user-boxes{
+        max-width: 300px;
+    }
+    .total-price{
+        max-width: 280px;
+    }
+    .total-price-info .total,
+    .promocode,
+    .promo-name,
+    .economy{
+        font-size: 15px;
+    }
+    .price-description{
+        max-width: 280px;
+        font-weight: 300;
+        font-size: 14px;
+        margin-bottom: 90px;
+    }
+
+}
