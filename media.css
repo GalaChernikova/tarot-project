@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="./../media.css"> 
 */
 
-/* 428 x 928 */
+/* 428 x 928 done */
 @media (max-width: 428px) and (max-height: 928px) {
     body {
         width: 428px;
@@ -324,7 +324,7 @@
 }
 
 
-/* 428 x 926 */
+/* 428 x 926 done */
 @media (max-width: 428px) and (max-height: 926px) {
     body {
         width: 428px;
@@ -342,7 +342,7 @@
 }
 
 
-/* 414 x 896 */
+/* 414 x 896 done */
 @media (max-width: 414px) and (max-height: 896px) {
     body {
         width: 414px;
@@ -389,6 +389,17 @@
         font-size: 30px;
     line-height: 32px;
     }
+
+    .age-header {
+        margin-bottom: 57px;
+    }
+    .temperament-header {
+        margin-bottom: 17px;
+        line-height: 30px;
+        max-width: 360px;
+        font-size: 28px;
+    }
+
 
     .discuss-header{
         margin-bottom: 109px;
@@ -470,24 +481,15 @@
         margin-bottom: 21px;
     }
 
-    .age-header {
-        margin-bottom: 57px;
-    }
-    .temperament-header {
-        margin-bottom: 17px;
-        line-height: 30px;
-        max-width: 360px;
-        font-size: 28px;
-    }
 
 }
 
 
-/* 412 x 915 */
+/* 412 x 915 done */
 @media (max-width: 412px) and (max-height: 915px) {
     body {
         width: 412px;
-        height: 915px;
+        height: 767px;
     }
 
     .main-container {
@@ -495,9 +497,25 @@
         width: 100%;
 
     }
+    .button:last-child {
+        margin-bottom: 132px;
+    }
+    .time{
+        margin-bottom: 118px;
+    }
+    .filter-screen {
+        height: 718px;
+        position: fixed;
+    }
+    .loading-db-header{
+        margin-bottom: 200px !important;
+    }
+    .next-db-header{
+        margin-bottom: 220px;
+    }
 }
 
-/* 412 x 883 */
+/* 412 x 883 done */
 @media (max-width: 412px) and (max-height: 883px) {
     body {
         width: 412px;
@@ -511,17 +529,21 @@
 }
 
 
-/* 393 x 851 */
+/* 393 x 851 done */
 @media (max-width: 393px) {
     body {
         width: 393px;
-        height: 851px;
+        height: 698px;
     }
 
     .main-container {
         max-width: 393px;
         width: 100%;
 
+    }
+
+    .button:last-child {
+        margin-bottom: 80px;
     }
 
     h2 {
@@ -553,20 +575,164 @@
     .swiper {
         width: 375px;
     }
+    .discuss-header {
+        margin-bottom: 133px;
+    }
+    .help-header {
+        margin-bottom: 47px;
+    }
+    .icon-screen-header {
+        max-width: 372px;
+    }
+    .icon-screen-info {
+        margin-bottom: 82px;
+    }
+    .int-emotional-header {
+        margin-bottom: 100px;
+    }
+    .decision-header {
+        margin-bottom: 80px;
+    }
+    .plan-db-header{
+        margin-bottom: 80px !important;
+    }
+    .email-header {
+        margin-bottom: 25px;
+    }
+    .partner-discuss-header{
+        margin-bottom: 171px;
+    }
+    .partner-help-header {
+        max-width: 372px;
+    }
+    .icon-screen-header.no-screen {
+        max-width: 389px;
+        margin-bottom: 5px;
+    }
+    .new-header{
+        max-width: 350px;
+        
+        margin-bottom: 82px;
+    }
 
 }
 
 
-/* 390 x 844 */
+/* 390 x 844 done*/
 @media (max-width: 390px) {
     body {
         width: 390px;
-        height: 844px;
+        height: 615px;
     }
 
     .main-container {
         max-width: 390px;
         width: 100%;
+    }
+    .main-h5 {
+        
+        max-width: 300px;
+        margin: 0 auto 5px;
+    }
+    .test h5 {
+        margin: 20px 0 20px 30px;
+    }
+    .header{
+        margin-bottom: 0;
+        padding-top: 0;
+    }
+    h2 {
+        font-size: 24px;
+        line-height: 26px;
+        max-width: 350px;
+        width: 100%;
+        margin-bottom: 220px;
+    }
+    .birthdate-header {
+        margin-bottom: 45px;
+    }
+    .birthtime-header {
+        margin-bottom: 187px;
+    }
+    .time-input-header {
+        margin-bottom: 13px;
+    }
+    .goals-header {
+        margin-bottom: 108px;
+    }
+    .choose-card-header {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .add-card-header {
+        max-width: 340px;
+        width: 100%;
+    }
+    .age-header {
+        max-width: 330px;
+        margin-bottom: 100px;
+    }
+    .temperament-header {
+        max-width: 348px;
+    }
+    .discuss-header {   
+        margin-bottom: 170px;
+    }
+    .decision-header{
+        margin-bottom: 107px;
+    }
+    .int-emotional-header{
+        max-width: 330px;
+        margin-bottom: 144px;
+    }
+    #mut-discuss-header {
+        margin-bottom: 170px;
+    }
+    .help-header{
+        margin-bottom: 81px !important;
+    }
+    .email-header{
+        margin-bottom: 65px;
+    }
+    .price-info{
+        margin-bottom: 10px;
+    }
+    .price-description {
+        margin-bottom: 40px;
+    }
+    .partner-discuss-header{
+        margin-bottom: 197px;
+    max-width: 330px;
+    }
+    .icon-screen-header.no-screen{
+        max-width: 330px;
+    margin-bottom: 10px;
+    }
+
+    .progress-bar {
+        max-width: 333px;
+        width: 100%;
+    }
+    .button{
+        margin: 20px auto;
+    }
+    .goal{
+        margin: 10px auto;
+    }
+    .icon-screen-info{
+        margin-bottom: 46px;
+    }
+    .icon-screen-header{
+        max-width: 330px;
+    }
+    .age {
+        margin: 10px auto;
+    }
+    .help-header {
+        max-width: 330px;
+    }
+    .icon-screen-info.heart {
+        margin-bottom: 32px;
     }
 }
 
@@ -1027,7 +1193,7 @@
 }
 
 
-/* 360 x 772 */
+/* 360 x 772 done*/
 @media (max-width: 360px) and (max-height: 772px) {
     body {
         width: 360px;
@@ -1476,7 +1642,7 @@
 }
 
 
-/* 320 x 568 */
+/* 320 x 568 done*/
 @media (max-width: 320px) {
     body {
         width: 320px;
