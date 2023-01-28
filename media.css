@@ -3,7 +3,7 @@
 */
 
 /* 428 x 928 */
-/* @media (max-width: 428px) and (max-height: 928px) {
+@media (max-width: 428px) and (max-height: 928px) {
     body {
         width: 428px;
         height: 928px;
@@ -283,11 +283,11 @@
     .co-decision-header {
         margin-bottom: 63px;
     }
-} */
+}
 
 
 /* 428 x 926 */
-/* @media (max-width: 428px) and (max-height: 926px) {
+@media (max-width: 428px) and (max-height: 926px) {
     body {
         width: 428px;
         height: 926px;
@@ -298,7 +298,7 @@
         width: 100%;
         margin-top: 60px;
     }
-} */
+}
 
 
 /* 414 x 896 */
@@ -469,8 +469,8 @@
 /* 360 x 800 */
 @media (max-width: 360px) and (max-height: 800px) {
     body {
-        width: 360px;
-        height: 800px;
+        width: 360px !important;
+        height: 690px !important;
     }
 
     .main-container {
@@ -479,6 +479,110 @@
         margin-top: 20px;
 
     }
+    h1 {
+        margin: 40px auto 60px ;
+    }
+    .main-h5{
+        margin-bottom: 62px;
+    }
+    h2 {
+        margin-bottom: 231px ;
+    }
+    h3 {
+        margin-left: 93px;
+    }
+    .progress-bar {
+        max-width: 305px;
+        width: 100%;
+    }
+    .birthdate-header {
+        margin-bottom: 105px;
+    }
+    .birthtime-header {
+        margin-bottom: 195px !important;
+    }
+    .time-input-header {
+        margin-bottom: 73px ;
+    }
+    .icon-screen-header {
+        margin: 63px auto;
+    }
+    .goals-header {
+        margin-bottom: 150px;
+    }
+    .filter-screen {
+        height: 652px ;
+        position: fixed;
+    }
+    .choose-card-header{
+        margin-bottom: 30px ;
+    }
+    .add-card-header {
+        margin-bottom: 55px ;
+    }
+    .age-header {
+        margin-bottom: 113px ;
+    }
+    .temperament-header {
+        margin-bottom: 72px;
+    }
+    .loading-db-header {
+        margin: 80px auto !important;
+    }
+    .discuss-header {
+        margin-bottom: 192px;
+    }
+    .help-header {
+        margin-bottom: 78px;
+    }
+    .int-imp-header{
+        margin-bottom: 114px !important;
+    }
+    .int-imp-und-header{
+        margin-bottom: 113px !important;
+    }
+    .int-emotional-header {
+        margin-bottom: 155px;
+    }
+    .decision-header {
+        margin-bottom: 150px;
+    }
+    .social-header {
+        margin-bottom: 90px;
+    }
+    .plan-load-info {
+        margin-bottom: 60px !important;
+    }
+
+    .plan-db-header {
+        margin: 75px auto !important;
+    }
+    .email-form {
+        margin-top: 0;
+    }
+    .sun-icon{
+        margin-top: 0;
+    }
+    .icon-screen-info sun-info{
+        margin-bottom: 210px;
+    }
+    .popular-choice{
+        margin-bottom: 68px;
+    }
+    .price-description{
+        margin-bottom: 216px;
+    }
+    .partner-birthdate-header {
+        margin-bottom: 69px;
+    }
+    .partner-input-birthtime-header{
+        margin-bottom: 73px !important;
+    }
+    /* fix ! */
+    /* .partner-birthdate-header{
+        margin-bottom: 20px !important;
+    } */
+    
 }
 
 /* 360 x 780 */
@@ -726,7 +830,7 @@
 
 
 /* 360 x 772 */
-/* @media (max-width: 360px) and (max-height: 772px) {
+@media (max-width: 360px) and (max-height: 772px) {
     body {
         width: 360px;
         height: 772px;
@@ -1164,7 +1268,7 @@
     .co-decision-header{
         margin-bottom: 20px;
     }
-} */
+}
 
 
 /* 320 x 568 */
