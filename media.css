@@ -42,7 +42,7 @@
     }
 
     .button:last-child {
-        margin-bottom: 32px;
+        margin-bottom: 150px;
     }
 
 
@@ -335,6 +335,7 @@
 }
 
 
+
 /* 428 x 926 done */
 @media (max-width: 428px) and (max-height: 926px) {
     body {
@@ -347,10 +348,10 @@
         width: 100%;
         margin-top: 60px;
     }
-
+/* 
     .button:last-child {
         margin-bottom: 30px;
-    }
+    } */
 }
 
 
@@ -541,9 +542,9 @@
 
     }
 
-    .button:last-child {
+    /* .button:last-child {
         margin-bottom: 132px;
-    }
+    } */
 
     .time {
         margin-bottom: 118px;
