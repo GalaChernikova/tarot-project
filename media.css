@@ -6,7 +6,7 @@
 @media (max-width: 428px) and (max-height: 928px) {
     body {
         width: 428px;
-        height: 928px;
+        height: 700px;
     }
 
     .main-container {
@@ -16,17 +16,19 @@
     }
 
     h1 {
-        margin: 90px auto 47px;
+        margin: 20px auto 25px;
         font-weight: 600;
         font-size: 35px;
     }
+   
 
     h5 {
         font-size: 20px;
-        margin-bottom: 80px;
 
     }
-
+    .main-h5{
+        margin-bottom: 60px;
+    }
     .button {
         max-width: 345px;
         width: 100%;
@@ -35,6 +37,9 @@
 
     .button .button-text {
         font-size: 22px;
+    }
+    .button:last-child{
+        margin-bottom: 32px;
     }
 
 
@@ -63,7 +68,7 @@
     }
 
     .ldBar {
-        width: 200px !important;
+        width: 200px;
         padding-top: 5px;
     }
 
@@ -82,11 +87,11 @@
     h2 {
         margin-left: 30px;
         font-size: 32px;
-        margin-bottom: 267px;
+        margin-bottom: 215px;
     }
 
     .birthdate-header {
-        margin-bottom: 121px;
+        margin-bottom: 70px;
     }
 
     .birth {
@@ -95,27 +100,30 @@
     }
 
     .birth input {
-        max-width: 345px !important;
+        max-width: 345px;
         width: 100%;
         font-size: 22px;
         margin: 10px auto;
     }
 
     .birthtime-header {
-        margin-bottom: 231px;
+        margin-bottom: 178px;
     }
 
     .time-input-header {
-        margin-bottom: 109px;
+        margin-bottom: 56px;
     }
 
     .icon-screen-header {
         margin-bottom: 22px;
     }
 
+    .icon-screen img {
+        margin-bottom: 103px;
+    }
     .icon-screen-info {
         font-size: 20px;
-        margin-bottom: 115px;
+        margin-bottom: 65px;
     }
 
     .goal {
@@ -123,18 +131,24 @@
     }
 
     .goals-header {
-        margin-bottom: 150px;
+        margin-bottom: 98px;
+    }
+
+    .filter-screen{
+        height: 680px;
+        position: fixed;
     }
 
     .choose-card-header {
-        max-width: 365px !important;
+        max-width: 365px;
         width: 100%;
-        margin-bottom: 60px;
+        margin-bottom: 15px;
     }
 
     #choose-card-button {
-        margin-bottom: 0 !important;
+        margin-bottom: 0;
     }
+
 
     .swiper {
         width: 428px;
@@ -145,75 +159,93 @@
         max-width: 428px;
         width: 100%;
     }
+    .add-card-button{
+        bottom: 195px;
+    }
 
     .add-card-header {
         margin-bottom: 35px;
     }
 
     #add-card-button-last {
-        margin-bottom: 0 !important;
+        margin-bottom: 0;
     }
 
     .age-header {
-        margin-bottom: 140px;
+        margin-bottom: 87px;
     }
 
     .temperament-header {
-        margin-bottom: 52px;
+        margin-bottom: 1px;
+        
+        line-height: 35px;
         max-width: 345px;
     }
 
     .loading-db-header {
         max-width: 370px !important;
-        line-height: 45px;
-        margin-bottom: 218px !important;
+       
+        line-height: 36px;
+        margin-bottom: 140px !important;
     }
 
     .discuss-header {
-        margin-bottom: 191px;
+        margin-bottom: 139px;
         max-width: 353px;
     }
 
     #mut-discuss-header {
-        margin-bottom: 225px;
+        margin-bottom: 175px;
     }
 
     .help-header {
-        margin-bottom: 103px;
+        margin-bottom: 51px;
     }
 
     .int-emotional-header {
         max-width: 360px;
-        margin-bottom: 155px;
+        margin-bottom: 103px;
     }
 
     .icon-screen-info.heart {
-        margin-bottom: 80px;
+        margin-bottom: 22px;
     }
 
     .decision-header {
-        margin-bottom: 140px;
+        margin-bottom: 87px;
     }
 
     .social-header {
-        margin-bottom: 102px;
+        margin-bottom: 48px;
     }
 
     .email-header {
-        margin-bottom: 57px;
+        margin-bottom: 2px;
+    }
+    .plan-db-header{
+        margin-bottom: 40px !important;
+    }
+    .plan-load-info{
+        margin-bottom: 135px !important;
     }
 
     .icon-screen {
-        max-width: 428px !important;
+        max-width: 428px;
         width: 100%;
     }
 
     .icon-screen img {
         margin-bottom: 110px;
     }
+    .sun-icon{
+        margin-top: 45px;
+    }
 
     .sun-header {
-        margin-bottom: 124px;
+        margin-bottom: 95px;
+    }
+    .sun-info{
+        margin-bottom: 100px;
     }
 
     .price-info p {
@@ -222,7 +254,7 @@
     }
 
     .popular-choice {
-        margin-bottom: 90px;
+        margin-bottom: 36px;
     }
 
     .trial_header {
@@ -232,56 +264,62 @@
 
     .price-description {
         font-size: 16px;
-        margin-bottom: 190px;
+        margin-bottom: 137px;
     }
 
     .partner-birthdate-header {
-        margin-bottom: 82px;
+        margin-bottom: 35px;
+    }
+    .partner-yes-no-birthtime-header{
+        margin-bottom: 142px;
+    }
+    .partner-input-birthtime-header{
+        margin-bottom: 21px;
     }
 
-    .partner-birthtime-header {
-        margin-bottom: 192px;
-    }
 
 
     .und-temp-header {
-        margin-bottom: 84px;
+        margin-bottom: 38px;
     }
 
     .partner-discuss-header {
-        margin-bottom: 225px;
+        margin-bottom: 175px;
     }
 
     .partner-treat-header {
-        margin-bottom: 225px;
+        margin-bottom: 175px;
     }
 
     .partner-help-header {
-        margin-bottom: 67px;
+        margin-bottom: 14px;
     }
 
     .partner-decision-header {
-        margin-bottom: 100px;
+        margin-bottom: 51px;
     }
 
     .new-header {
-        margin-bottom: 137px;
+        margin-bottom: 87px;
     }
 
     .next-db-header {
-        margin-bottom: 263px !important;
+        margin-bottom: 180px !important;
     }
 
     .past-header {
-        margin-bottom: 137px;
+        margin-bottom: 87px;
     }
 
     .eye-header {
-        margin-bottom: 50px !important;
+        max-width: 345px ;
+        width: 100%;
+        margin-bottom: 30px;
     }
 
     .co-decision-header {
         margin-bottom: 63px;
+        max-width: 345px;
     }
 }
 
@@ -290,13 +328,16 @@
 @media (max-width: 428px) and (max-height: 926px) {
     body {
         width: 428px;
-        height: 926px;
+        height: 698px;
     }
 
     .main-container {
         max-width: 426px;
         width: 100%;
         margin-top: 60px;
+    }
+    .button:last-child{
+        margin-bottom: 30px;
     }
 }
 
@@ -305,13 +346,138 @@
 @media (max-width: 414px) and (max-height: 896px) {
     body {
         width: 414px;
-        height: 896px;
+        height: 665px;
     }
 
     .main-container {
         max-width: 414px;
         width: 100%;
         margin-top: 60px;
+    }
+    .main-h5 {
+        margin-bottom: 40px;
+    }
+    h2{
+        margin-bottom: 185px;
+    }
+    .birthdate-header {
+        margin-bottom: 40px;
+    }
+    .birthtime-header{
+        margin-bottom: 148px
+    }
+    .time-input-header{
+        margin-bottom: 27px;
+    }
+    .goals-header {
+        margin-bottom: 68px;
+    }
+    .icon-screen-header {
+        max-width: 397px;
+    }
+    .add-card-header{
+        max-width: 360px;
+        width: 100%;
+    }
+    .icon-screen-info{
+        margin-bottom: 98px;
+    }
+    .icon-screen img {
+        margin-bottom: 75px;
+    }
+    .choose-card-header{
+        font-size: 30px;
+    line-height: 32px;
+    }
+
+    .discuss-header{
+        margin-bottom: 109px;
+    }
+    #mut-discuss-header {
+        margin-bottom: 145px;
+    }
+    .help-header {
+        margin-bottom: 21px;
+    }
+    .int-emotional-header {
+        margin-bottom: 73px;
+    }
+    .icon-screen-info.heart {
+        margin-bottom: 62px;
+    }
+    .icon-screen-header.no-screen {
+        max-width: 404px;
+    }
+    .decision-header {
+        margin-bottom: 68px;
+    }
+
+    .social-header {
+        margin-bottom: 25px;
+    }
+    .email-header {
+        margin-bottom: 7px;
+        max-width: 383px;
+    }
+    .popular-choice {
+        margin-bottom: 6px;
+    }
+    .price-description {
+        margin-bottom: 107px;
+    }
+    .icon-screen.sun-icon{
+        margin-top: 0 ;
+    }
+    .icon-screen.sun-info{
+        margin-bottom: 200px ;
+    }
+    
+
+    .partner-birthdate-header{
+        margin-bottom: 3px;
+    }
+    .partner-yes-no-birthtime-header{
+        margin-bottom: 113px;
+    }
+
+    .time-input-header{
+        margin-bottom: 0;
+    }
+    .time {
+        margin: 81px auto;
+    }
+    .partner-discuss-header{
+        margin-bottom: 145px;
+    }
+    .partner-treat-header{
+        margin-bottom: 145px;
+    }
+    .partner-help-header{
+        max-width: 380px;
+    }
+    .partner-decision-header{
+        margin-bottom: 21px;
+    }
+
+
+    .new-header{
+        margin-bottom: 56px;
+    }
+    .past-header{
+        margin-bottom: 57px;
+    }
+    .co-decision-header{
+        margin-bottom: 21px;
+    }
+
+    .age-header {
+        margin-bottom: 57px;
+    }
+    .temperament-header {
+        margin-bottom: 17px;
+        line-height: 30px;
+        max-width: 360px;
+        font-size: 28px;
     }
 
 }
@@ -360,7 +526,7 @@
 
     h2 {
         font-size: 26px;
-        max-width: 350px !important;
+        max-width: 350px;
         width: 100%;
     }
 
@@ -374,12 +540,12 @@
     }
 
     .ldBar {
-        width: 142px !important;
+        width: 142px;
         padding-top: 5px;
     }
 
     .choose-card-header {
-        max-width: 335px !important;
+        max-width: 335px;
         width: 100%;
 
     }
@@ -418,7 +584,7 @@
 
     h2 {
 
-        max-width: 330px !important;
+        max-width: 330px;
         width: 100%;
     }
 }
@@ -469,8 +635,8 @@
 /* 360 x 800 */
 @media (max-width: 360px) and (max-height: 800px) {
     body {
-        width: 360px !important;
-        height: 690px !important;
+        width: 360px;
+        height: 690px;
     }
 
     .main-container {
@@ -479,110 +645,142 @@
         margin-top: 20px;
 
     }
+
     h1 {
-        margin: 40px auto 60px ;
+        margin: 40px auto 60px;
     }
-    .main-h5{
+
+    .main-h5 {
         margin-bottom: 62px;
     }
+
     h2 {
-        margin-bottom: 231px ;
+        margin-bottom: 231px;
     }
+
     h3 {
         margin-left: 93px;
     }
+
     .progress-bar {
         max-width: 305px;
         width: 100%;
     }
+
     .birthdate-header {
         margin-bottom: 105px;
     }
+
     .birthtime-header {
-        margin-bottom: 195px !important;
+        margin-bottom: 195px;
     }
+
     .time-input-header {
-        margin-bottom: 73px ;
+        margin-bottom: 73px;
     }
+
     .icon-screen-header {
         margin: 63px auto;
     }
+
     .goals-header {
         margin-bottom: 150px;
     }
+
     .filter-screen {
-        height: 652px ;
+        height: 652px;
         position: fixed;
     }
-    .choose-card-header{
-        margin-bottom: 30px ;
+
+    .choose-card-header {
+        margin-bottom: 30px;
     }
+
     .add-card-header {
-        margin-bottom: 55px ;
+        margin-bottom: 55px;
     }
+
     .age-header {
-        margin-bottom: 113px ;
+        margin-bottom: 113px;
     }
+
     .temperament-header {
         margin-bottom: 72px;
     }
+
     .loading-db-header {
-        margin: 80px auto !important;
+        margin: 80px auto;
     }
+
     .discuss-header {
         margin-bottom: 192px;
     }
+
     .help-header {
         margin-bottom: 78px;
     }
-    .int-imp-header{
-        margin-bottom: 114px !important;
+
+    .int-imp-header {
+        margin-bottom: 114px;
     }
-    .int-imp-und-header{
-        margin-bottom: 113px !important;
+
+    .int-imp-und-header {
+        margin-bottom: 113px;
     }
+
     .int-emotional-header {
         margin-bottom: 155px;
     }
+
     .decision-header {
         margin-bottom: 150px;
     }
+
     .social-header {
         margin-bottom: 90px;
     }
+
     .plan-load-info {
-        margin-bottom: 60px !important;
+        margin-bottom: 60px;
     }
 
     .plan-db-header {
-        margin: 75px auto !important;
+        margin: 75px auto;
     }
+
     .email-form {
         margin-top: 0;
     }
-    .sun-icon{
+
+    .sun-icon {
         margin-top: 0;
     }
-    .icon-screen-info sun-info{
+
+    .icon-screen-info sun-info {
         margin-bottom: 210px;
     }
-    .popular-choice{
+
+    .popular-choice {
         margin-bottom: 68px;
     }
-    .price-description{
+
+    .price-description {
         margin-bottom: 216px;
     }
+
     .partner-birthdate-header {
         margin-bottom: 69px;
     }
-    .partner-input-birthtime-header{
-        margin-bottom: 73px !important;
+
+    .partner-input-birthtime-header {
+        margin-bottom: 73px;
     }
+
     /* fix ! */
     /* .partner-birthdate-header{
-        margin-bottom: 20px !important;
+        margin-bottom: 20px ;
     } */
-    
+
 }
 
 /* 360 x 780 */
@@ -609,11 +807,11 @@
     }
 
     .button {
-        margin: 10px auto !important;
+        margin: 10px auto;
     }
 
     .button:last-child {
-        margin-bottom: 40px !important;
+        margin-bottom: 40px;
     }
 
 
@@ -625,13 +823,13 @@
 
     .test h5 {
         margin: 20px 0 20px 30px;
-        font-size: 14px !important;
+        font-size: 14px;
     }
 
     h2 {
         margin-bottom: 280px;
         margin-left: 30px;
-        max-width: 300px !important;
+        max-width: 300px;
         font-size: 22px;
         line-height: 24px;
     }
@@ -649,7 +847,7 @@
     }
 
     .mobile-nav {
-        padding: 0 0 30px 40px !important;
+        padding: 0 0 30px 40px;
         width: 360px;
     }
 
@@ -679,7 +877,7 @@
     }
 
     .ldBar {
-        width: 146px !important;
+        width: 146px;
         padding-top: 0;
     }
 
@@ -752,7 +950,7 @@
     }
 
     .loading-db-header {
-        margin: 123px auto !important;
+        margin: 123px auto;
     }
 
     .discuss-header {
@@ -781,11 +979,11 @@
 
 
     .plan-load-info {
-        margin-bottom: 60px !important;
+        margin-bottom: 60px;
     }
 
     .plan-db-header {
-        margin: 102px auto !important;
+        margin: 102px auto;
     }
 
 
@@ -796,11 +994,11 @@
 
 
     .sun-icon {
-        margin-top: 0 !important;
+        margin-top: 0;
     }
 
     .sun-info {
-        margin-bottom: 210px !important;
+        margin-bottom: 210px;
     }
 
     .popular-choice {
@@ -866,7 +1064,7 @@
     .button {
         max-width: 280px;
         width: 100%;
-        margin: 5px auto !important;
+        margin: 5px auto;
 
 
     }
@@ -879,451 +1077,9 @@
 
 
     .button:last-child {
-        margin-bottom: 15px !important;
-    }
-
-    .header {
-        padding-top: 0;
-        max-width: 320px;
-        width: 100%;
-    }
-
-    .nav-button {
-        padding: 20px;
-    }
-
-    .mobile-nav {
-        padding: 0 0 20px 20px !important;
-        width: 300px;
-    }
-
-    .mobile-nav .nav ul li {
-        padding: 10px 0;
-    }
-
-    h3 {
-        margin-left: 80px;
-    }
-
-    .progress-bar {
-        max-width: 270px;
-        width: 100%;
-    }
-
-    .number-active {
-        margin-right: 10px;
-    }
-
-    .number-next {
-        margin-left: 10px;
-    }
-
-    .ldBar {
-        width: 140px !important;
-    }
-
-    h2 {
-        margin-bottom: 130px;
-        max-width: 280px !important;
-        font-size: 18px;
-        line-height: 20px;
-    }
-
-
-    .test h5 {
-        margin: 10px 0 10px 30px;
-        font-size: 14px !important;
-    }
-
-    .birthdate-header {
-        margin-bottom: 38px;
-    }
-
-    .birth {
-        max-width: 280px;
-        width: 100%;
-        margin-bottom: 0;
-    }
-
-    .birth input {
-        font-size: 16px;
-        height: 45px;
-        margin: 0 auto 5px;
-    }
-
-    .birthtime-header {
-        margin-bottom: 110px;
-    }
-
-    .time-input-header {
-        margin-bottom: 0;
-    }
-
-    .time {
-        margin: 87px auto;
-        margin-bottom: 41px;
-    }
-
-
-    .icon-screen-info {
-        max-width: 300px;
-        font-size: 16px;
-        line-height: 16px;
-        margin-bottom: 45px;
-    }
-
-    .icon-screen img {
-        margin-bottom: 10px;
-    }
-
-    .goal {
-        margin: 5px auto;
-    }
-
-    .goals-header {
-        margin-bottom: 60px;
-    }
-
-    .choose-card-header {
-        margin-bottom: 20px;
-        max-width: 250px !important;
-    }
-
-    .swiper {
-        width: 300px;
-    }
-
-    .swiper-slide,
-    .swiper-slide img {
-        width: 120px !important;
-        width: 100%;
-    }
-
-    .swiper-slide {
-        width: 50%;
-    }
-
-    .choose-card-button {
-        bottom: 85px;
-    }
-
-
-
-    .filter {
-        top: 76px;
-        height: 140px;
-    }
-
-    .filter-screen {
-        height: 396px;
-        position: fixed;
-    }
-
-    .add-card-header {
-        font-size: 18px;
-        line-height: 20px;
-        margin-bottom: 5px;
-    }
-
-    .add-card-button {
-        bottom: 155px;
-    }
-
-    .add-card-h5 {
-        margin: 10px 0px 10px 30px !important;
-    }
-
-    .add-cards-filter {
-        top: 115px;
-    }
-
-    .age {
-        margin: 5px auto !important;
-    }
-
-    .age-header {
-        margin-bottom: 40px;
-    }
-
-    .temperament-header {
-        margin-bottom: 10px;
-    }
-
-    .temp-button {
-        padding: 15px 0;
-    }
-
-    .int-emotional-header {
-        max-width: 280px;
-        margin-bottom: 70px;
-    }
-
-    .loading-db-header {
-        max-width: 288px !important;
-        width: 100%;
-        line-height: 20px;
-        margin-bottom: 62px !important;
-    }
-
-    .discuss-header {
-        margin-bottom: 90px;
-        max-width: 353px
-    }
-
-    #mut-discuss-header {
-        margin-bottom: 110px;
-    }
-
-    .help-header {
-        margin-bottom: 20px;
-    }
-
-    .int-imp-header {
-        margin-bottom: 40px;
-    }
-
-    .icon-screen-header {
-        max-width: 280px;
-        width: 100%;
-        margin-bottom: 35px;
-    }
-
-
-    .icon-screen-header.no-screen {
-        max-width: 295px;
-        width: 100%;
-        margin-bottom: 35px;
-    }
-
-    .icon-screen-info.heart {
-        margin-bottom: 45px;
-    }
-
-    .decision-header {
-        margin-bottom: 40px;
-    }
-
-    .social-header {
-        margin-bottom: 12px;
-    }
-
-    .plan-db-header {
-        margin-bottom: 20px !important;
-    }
-
-    .plan-load-info {
-        margin-bottom: 50px !important;
-    }
-
-    .email-form {
-        margin-top: 5px;
-    }
-
-    #email {
-        max-width: 280px;
-        width: 100%;
-        font-size: 16px;
-        height: 45px;
-    }
-
-    .checkbox {
-        max-width: 280px;
-        width: 100%;
-
-    }
-
-    .checkbox p {
-        font-size: 15px;
-    }
-
-    .sun-icon {
-        margin-top: 20px !important;
-    }
-
-    .sun-info {
-        margin-bottom: 111px !important;
-    }
-
-    .price-info p:not(:last-child) {
-        margin-bottom: 5px;
-    }
-
-    .price-info {
-        max-width: 280px;
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .price-info p {
-        font-size: 15px;
-        line-height: 20px;
-    }
-
-    .price-boxes {
-        max-width: 280px;
-        width: 100%;
         margin-bottom: 15px;
     }
 
-    .box {
-        width: 63px;
-        height: 49px;
-        font-size: 16px;
-    }
-
-    .popular-choice {
-        margin-bottom: 0;
-    }
-
-    .special {
-        margin-top: 20px;
-    }
-
-    .white-bold {
-        margin-bottom: 5px;
-    }
-
-    .plan-basis {
-        max-width: 280px;
-        width: 100%;
-        margin: 20px auto;
-    }
-
-    .plan-basis h4 {
-        line-height: 20px;
-        margin-bottom: 10px;
-    }
-
-    .plan-header {
-        margin-bottom: 10px;
-    }
-
-    .basis-list {
-        max-height: 120px;
-        overflow: scroll;
-    }
-
-    .basis-list li {
-
-        max-width: 250px;
-        margin: 5px;
-    }
-
-    .basis-list li img {
-        margin-right: 10px;
-    }
-
-    .basis-list li p {
-        font-size: 15px;
-        line-height: 16px;
-    }
-
-    .trial_header {
-        margin: 20px auto;
-    }
-
-    .user-boxes {
-        max-width: 300px;
-    }
-
-    .total-price {
-        max-width: 280px;
-    }
-
-    .total-price-info .total,
-    .promocode,
-    .promo-name,
-    .economy {
-        font-size: 15px;
-    }
-
-    .price-description {
-        max-width: 280px;
-        font-weight: 300;
-        font-size: 14px;
-        margin-bottom: 8px;
-    }
-
-    .partner-birthdate-header{
-        margin-bottom: 18px;
-    }
-    .partner-discuss-header{
-        margin-bottom: 110px;
-    }
-    .partner-decision-header{
-        margin-bottom: 25px;
-    }
-    .new-header{
-        margin-bottom: 40px;
-    }
-    .past-header{
-        margin-bottom: 40px;
-    }
-    .next-int-em-header{
-        margin-bottom: 90px;
-    }
-    .eye-header {
-        margin-bottom: 25px !important;
-    }
-    .co-decision-header{
-        margin-bottom: 20px;
-    }
-}
-
-
-/* 320 x 568 */
-@media (max-width: 350px) {
-    body {
-        width: 320px;
-        height: 437px;
-    }
-
-    .main-container {
-        max-width: 320px;
-        width: 100%;
-        margin-top: 20px;
-
-    }
-
-    h1 {
-        font-size: 23px;
-        line-height: 23px;
-        max-width: 280px;
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    h5 {
-        max-width: 280px;
-
-    }
-
-    .main-h5 {
-        align-self: center;
-        font-size: 16px;
-        margin: 0;
-        margin-bottom: 8px;
-    }
-
-    .button {
-        max-width: 280px;
-        width: 100%;
-        margin: 5px auto !important;
-
-
-    }
-
-    .button .button-text {
-        font-size: 16px;
-        line-height: 20px;
-
-    }
-
-
-    .button:last-child {
-        margin-bottom: 15px !important;
-    }
-
     .header {
         padding-top: 0;
         max-width: 320px;
@@ -1335,7 +1091,7 @@
     }
 
     .mobile-nav {
-        padding: 0 0 20px 20px !important;
+        padding: 0 0 20px 20px;
         width: 300px;
     }
 
@@ -1361,12 +1117,12 @@
     }
 
     .ldBar {
-        width: 140px !important;
+        width: 140px;
     }
 
     h2 {
         margin-bottom: 130px;
-        max-width: 280px !important;
+        max-width: 280px;
         font-size: 18px;
         line-height: 20px;
     }
@@ -1374,7 +1130,7 @@
 
     .test h5 {
         margin: 10px 0 10px 30px;
-        font-size: 14px !important;
+        font-size: 14px;
     }
 
     .birthdate-header {
@@ -1428,7 +1184,7 @@
 
     .choose-card-header {
         margin-bottom: 20px;
-        max-width: 250px !important;
+        max-width: 250px;
     }
 
     .swiper {
@@ -1437,7 +1193,7 @@
 
     .swiper-slide,
     .swiper-slide img {
-        width: 120px !important;
+        width: 120px;
         width: 100%;
     }
 
@@ -1472,7 +1228,7 @@
     }
 
     .add-card-h5 {
-        margin: 10px 0px 10px 30px !important;
+        margin: 10px 0px 10px 30px;
     }
 
     .add-cards-filter {
@@ -1480,7 +1236,7 @@
     }
 
     .age {
-        margin: 5px auto !important;
+        margin: 5px auto;
     }
 
     .age-header {
@@ -1501,10 +1257,10 @@
     }
 
     .loading-db-header {
-        max-width: 288px !important;
+        max-width: 288px;
         width: 100%;
         line-height: 20px;
-        margin-bottom: 62px !important;
+        margin-bottom: 62px;
     }
 
     .discuss-header {
@@ -1550,11 +1306,11 @@
     }
 
     .plan-db-header {
-        margin-bottom: 20px !important;
+        margin-bottom: 20px;
     }
 
     .plan-load-info {
-        margin-bottom: 50px !important;
+        margin-bottom: 50px;
     }
 
     .email-form {
@@ -1579,11 +1335,11 @@
     }
 
     .sun-icon {
-        margin-top: 20px !important;
+        margin-top: 20px;
     }
 
     .sun-info {
-        margin-bottom: 111px !important;
+        margin-bottom: 111px;
     }
 
     .price-info p:not(:last-child) {
@@ -1711,7 +1467,460 @@
     }
 
     .eye-header {
-        margin-bottom: 25px !important;
+        margin-bottom: 25px;
+    }
+
+    .co-decision-header {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* 320 x 568 */
+@media (max-width: 320px) {
+    body {
+        width: 320px;
+        height: 437px;
+    }
+
+    .main-container {
+        max-width: 320px;
+        width: 100%;
+        margin-top: 20px;
+
+    }
+
+    h1 {
+        font-size: 23px;
+        line-height: 23px;
+        max-width: 280px;
+        width: 100%;
+        margin-bottom: 17px;
+        margin-top: 0;
+    }
+
+    h5 {
+        max-width: 280px;
+
+    }
+
+
+    .main-h5 {
+        align-self: center;
+        font-size: 16px;
+        margin: 0;
+        margin-bottom: 8px;
+    }
+
+    
+    .button {
+        max-width: 280px;
+        width: 100%;
+        margin: 5px auto;
+
+
+    }
+
+    .button .button-text {
+        font-size: 16px;
+        line-height: 20px;
+
+    }
+
+
+    .button:last-child {
+        margin-bottom: 15px;
+    }
+
+    .header {
+        padding-top: 0;
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .nav-button {
+        padding: 20px;
+    }
+
+    .mobile-nav {
+        padding: 0 0 20px 20px;
+        width: 300px;
+    }
+
+    .mobile-nav .nav ul li {
+        padding: 10px 0;
+    }
+
+    h3 {
+        margin-left: 80px;
+    }
+
+    .progress-bar {
+        max-width: 270px;
+        width: 100%;
+    }
+
+    .number-active {
+        margin-right: 10px;
+    }
+
+    .number-next {
+        margin-left: 10px;
+    }
+
+    .ldBar {
+        width: 140px;
+    }
+
+    h2 {
+        margin-bottom: 130px;
+        max-width: 280px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+
+    .test h5 {
+        margin: 10px 0 10px 30px;
+        font-size: 14px;
+    }
+
+    .birthdate-header {
+        margin-bottom: 38px;
+    }
+
+    .birth {
+        max-width: 280px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .birth input {
+        font-size: 16px;
+        height: 45px;
+        margin: 0 auto 5px;
+    }
+
+    .birthtime-header {
+        margin-bottom: 110px;
+    }
+
+    .time-input-header {
+        margin-bottom: 0;
+    }
+
+    .time {
+        margin: 87px auto;
+        margin-bottom: 41px;
+    }
+
+
+    .icon-screen-info {
+        max-width: 300px;
+        font-size: 16px;
+        line-height: 16px;
+        margin-bottom: 45px;
+    }
+
+    .icon-screen img {
+        margin-bottom: 10px;
+    }
+
+    .goal {
+        margin: 5px auto;
+    }
+
+    .goals-header {
+        margin-bottom: 60px;
+    }
+
+    .choose-card-header {
+        margin-bottom: 20px;
+        max-width: 250px;
+    }
+
+    .swiper {
+        width: 300px;
+    }
+
+    .swiper-slide,
+    .swiper-slide img {
+        width: 120px;
+        width: 100%;
+    }
+
+    .swiper-slide {
+        width: 50%;
+    }
+
+    .choose-card-button {
+        bottom: 85px;
+    }
+
+
+
+    .filter {
+        top: 76px;
+        height: 140px;
+    }
+
+    .filter-screen {
+        height: 396px;
+        position: fixed;
+    }
+
+    .add-card-header {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+
+    .add-card-button {
+        bottom: 155px;
+    }
+
+    .add-card-h5 {
+        margin: 10px 0px 10px 30px;
+    }
+
+    .add-cards-filter {
+        top: 115px;
+    }
+
+    .age {
+        margin: 5px auto;
+    }
+
+    .age-header {
+        margin-bottom: 40px;
+    }
+
+    .temperament-header {
+        margin-bottom: 10px;
+    }
+
+    .temp-button {
+        padding: 15px 0;
+    }
+
+    .int-emotional-header {
+        max-width: 280px;
+        margin-bottom: 70px;
+    }
+
+    .loading-db-header {
+        max-width: 288px;
+        width: 100%;
+        line-height: 20px;
+        margin-bottom: 62px;
+    }
+
+    .discuss-header {
+        margin-bottom: 90px;
+        max-width: 353px
+    }
+
+    #mut-discuss-header {
+        margin-bottom: 110px;
+    }
+
+    .help-header {
+        margin-bottom: 20px;
+    }
+
+    .int-imp-header {
+        margin-bottom: 40px;
+    }
+
+    .icon-screen-header {
+        max-width: 280px;
+        width: 100%;
+        margin-bottom: 35px;
+        margin-top: 0;
+    }
+
+
+    .icon-screen-header.no-screen {
+        max-width: 295px;
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .icon-screen-info.heart {
+        margin-bottom: 45px;
+    }
+
+    .decision-header {
+        margin-bottom: 40px;
+    }
+
+    .social-header {
+        margin-bottom: 12px;
+    }
+
+    .plan-db-header {
+        margin-bottom: 20px;
+    }
+
+    .plan-load-info {
+        margin-bottom: 50px;
+    }
+
+    .email-form {
+        margin-top: 5px;
+    }
+
+    #email {
+        max-width: 280px;
+        width: 100%;
+        font-size: 16px;
+        height: 45px;
+    }
+
+    .checkbox {
+        max-width: 280px;
+        width: 100%;
+
+    }
+
+    .checkbox p {
+        font-size: 15px;
+    }
+
+    .sun-icon {
+        margin-top: 20px;
+    }
+
+    .sun-info {
+        margin-bottom: 111px;
+    }
+
+    .price-info p:not(:last-child) {
+        margin-bottom: 5px;
+    }
+
+    .price-info {
+        max-width: 280px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .price-info p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .price-boxes {
+        max-width: 280px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .box {
+        width: 63px;
+        height: 49px;
+        font-size: 16px;
+    }
+
+    .popular-choice {
+        margin-bottom: 0;
+    }
+
+    .special {
+        margin-top: 20px;
+    }
+
+    .white-bold {
+        margin-bottom: 5px;
+    }
+
+    .plan-basis {
+        max-width: 280px;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .plan-basis h4 {
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .plan-header {
+        margin-bottom: 10px;
+    }
+
+    .basis-list {
+        max-height: 120px;
+        overflow: scroll;
+    }
+
+    .basis-list li {
+
+        max-width: 250px;
+        margin: 5px;
+    }
+
+    .basis-list li img {
+        margin-right: 10px;
+    }
+
+    .basis-list li p {
+        font-size: 15px;
+        line-height: 16px;
+    }
+
+    .trial_header {
+        margin: 20px auto;
+    }
+
+    .user-boxes {
+        max-width: 300px;
+    }
+
+    .total-price {
+        max-width: 280px;
+    }
+
+    .total-price-info .total,
+    .promocode,
+    .promo-name,
+    .economy {
+        font-size: 15px;
+    }
+
+    .price-description {
+        max-width: 280px;
+        font-weight: 300;
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .partner-birthdate-header {
+        margin-bottom: 18px;
+    }
+
+    .partner-discuss-header {
+        margin-bottom: 110px;
+    }
+
+    .partner-decision-header {
+        margin-bottom: 25px;
+    }
+
+    .new-header {
+        margin-bottom: 40px;
+    }
+
+    .past-header {
+        margin-bottom: 40px;
+    }
+
+    .next-int-em-header {
+        margin-bottom: 90px;
+    }
+
+    .eye-header {
+        margin-bottom: 25px;
     }
 
     .co-decision-header {
