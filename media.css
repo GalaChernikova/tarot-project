@@ -2,33 +2,33 @@
 <link rel="stylesheet" href="./../media.css"> 
 */
 
-/* 428 x 928 done */
-@media (max-width: 428px) and (max-height: 928px) {
+/* 430 x 932 */
+@media (max-width: 430px) and (max-height: 932px) {
     body {
-        width: 428px;
-        height: 700px;
+        width: 430px;
+
     }
 
     .main-container {
-        max-width: 428px;
+        max-width: 430px;
         width: 100%;
         margin-top: 60px;
     }
 
     h1 {
-        margin: 20px auto 25px;
+        margin: 20px auto 55px;
         font-weight: 600;
         font-size: 35px;
     }
 
-
     h5 {
         font-size: 20px;
-
+        max-width: 300px;
     }
 
     .main-h5 {
         margin-bottom: 60px;
+        align-self: center;
     }
 
     .button {
@@ -42,14 +42,16 @@
     }
 
     .button:last-child {
-        margin-bottom: 150px;
+        margin-bottom: 270px;
     }
+
 
 
     .header {
         max-width: 428px;
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 0;
+        padding-top: 0;
     }
 
     .nav li {
@@ -118,7 +120,7 @@
     }
 
     .icon-screen-header {
-        margin-bottom: 22px;
+        margin-bottom: 50px;
     }
 
     .icon-screen img {
@@ -139,37 +141,41 @@
     }
 
     .filter-screen {
-        height: 680px;
-        position: fixed;
+        height: 872px;
+
     }
 
     .choose-card-header {
         max-width: 365px;
         width: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 60px;
     }
 
     #choose-card-button {
         margin-bottom: 0;
     }
 
+    .choose-card-button {
+        bottom: 150px;
+    }
+
 
     .swiper {
-        width: 428px;
+        width: 430px;
     }
 
     .cards,
     .cards img {
-        max-width: 428px;
+        max-width: 430px;
         width: 100%;
     }
 
     .add-card-button {
-        bottom: 195px;
+        bottom: 150px;
     }
 
     .add-card-header {
-        margin-bottom: 35px;
+        margin-bottom: 60px;
     }
 
     #add-card-button-last {
@@ -181,17 +187,17 @@
     }
 
     .temperament-header {
-        margin-bottom: 1px;
+        margin-bottom: 50px;
 
         line-height: 35px;
         max-width: 345px;
     }
 
-    .loading-db-header {
-        max-width: 370px !important;
+    #loading-db-header {
+        max-width: 370px;
 
         line-height: 36px;
-        margin-bottom: 140px !important;
+        margin: 100px auto 250px;
     }
 
     .discuss-header {
@@ -213,7 +219,7 @@
     }
 
     .icon-screen-info.heart {
-        margin-bottom: 22px;
+        margin-bottom: 50px;
     }
 
     .decision-header {
@@ -221,19 +227,23 @@
     }
 
     .social-header {
-        margin-bottom: 48px;
+        margin-bottom: 75px;
     }
 
     .email-header {
-        margin-bottom: 2px;
+        margin-bottom: 0;
     }
 
-    .plan-db-header {
-        margin-bottom: 40px !important;
+    .email-form {
+        margin-top: 92px;
+    }
+
+    #plan-db-info {
+        margin-bottom: 70px;
     }
 
     .plan-load-info {
-        margin-bottom: 135px !important;
+        margin-bottom: 250px !important;
     }
 
     .icon-screen {
@@ -255,6 +265,10 @@
 
     .sun-info {
         margin-bottom: 100px;
+    }
+
+    .price-info {
+        margin-top: 40px;
     }
 
     .price-info p {
@@ -291,7 +305,7 @@
 
 
     .und-temp-header {
-        margin-bottom: 38px;
+        margin-bottom: 60px;
     }
 
     .partner-discuss-header {
@@ -303,7 +317,7 @@
     }
 
     .partner-help-header {
-        margin-bottom: 14px;
+        margin-bottom: 40px;
     }
 
     .partner-decision-header {
@@ -314,8 +328,9 @@
         margin-bottom: 87px;
     }
 
-    .next-db-header {
-        margin-bottom: 180px !important;
+    #next-db-header {
+        margin: 50px auto 340px;
+        max-width: 366px;
     }
 
     .past-header {
@@ -332,34 +347,65 @@
         margin-bottom: 63px;
         max-width: 345px;
     }
+
 }
 
 
-
-/* 428 x 926 done */
-@media (max-width: 428px) and (max-height: 926px) {
+/* 428 x 928 */
+@media (max-width: 428px) and (max-height: 928px) {
     body {
         width: 428px;
-        height: 698px;
+
     }
 
     .main-container {
-        max-width: 426px;
+        max-width: 428px;
         width: 100%;
         margin-top: 60px;
     }
-/* 
-    .button:last-child {
-        margin-bottom: 30px;
-    } */
+
+    .swiper {
+        width: 428px;
+    }
+
+    .cards,
+    .cards img {
+        max-width: 428px;
+        width: 100%;
+    }
 }
 
 
-/* 414 x 896 done */
+/* 428 x 926 */
+@media (max-width: 428px) and (max-height: 926px) {
+    body {
+        width: 428px;
+
+    }
+
+    .main-container {
+        max-width: 428px;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .swiper {
+        width: 428px;
+    }
+
+    .cards,
+    .cards img {
+        max-width: 428px;
+        width: 100%;
+    }
+}
+
+
+/* 414 x 896 */
 @media (max-width: 414px) and (max-height: 896px) {
     body {
         width: 414px;
-        height: 665px;
+
     }
 
     .main-container {
@@ -396,6 +442,16 @@
         max-width: 397px;
     }
 
+    .swiper {
+        width: 414px;
+    }
+
+    .cards,
+    .cards img {
+        max-width: 414px;
+        width: 100%;
+    }
+
     .add-card-header {
         max-width: 360px;
         width: 100%;
@@ -419,12 +475,15 @@
     }
 
     .temperament-header {
-        margin-bottom: 17px;
+        margin-bottom: 30px;
         line-height: 30px;
         max-width: 360px;
         font-size: 28px;
     }
 
+    #loading-db-header {
+        margin: 30px auto 250px;
+    }
 
     .discuss-header {
         margin-bottom: 109px;
@@ -447,11 +506,16 @@
     }
 
     .icon-screen-header.no-screen {
-        max-width: 404px;
+        max-width: 400px;
+        margin-bottom: 25px;
     }
 
     .decision-header {
         margin-bottom: 68px;
+    }
+
+    #plan-db-info {
+        margin-bottom: 320px;
     }
 
     .social-header {
@@ -528,12 +592,18 @@
 
 }
 
+/* 414 x 736 */
+@media (max-width: 414px) and (max-height: 736px) {
+    h1 {
+        margin: 20px auto;
+    }
+}
 
-/* 412 x 915 done */
+/* 412 x 915 */
 @media (max-width: 412px) and (max-height: 915px) {
     body {
         width: 412px;
-        height: 767px;
+
     }
 
     .main-container {
@@ -542,47 +612,39 @@
 
     }
 
-    /* .button:last-child {
-        margin-bottom: 132px;
-    } */
-
-    .time {
-        margin-bottom: 118px;
+    .icon-screen-header {
+        max-width: 395px;
     }
 
-    .filter-screen {
-        height: 718px;
-        position: fixed;
+    .icon-screen img {
+        margin-bottom: 50px;
     }
 
-    .loading-db-header {
-        margin-bottom: 200px !important;
+    .icon-screen-info {
+        margin-bottom: 50px;
     }
 
-    .next-db-header {
-        margin-bottom: 220px;
+    #loading-db-header {
+        margin-bottom: 300px;
     }
-}
 
-/* 412 x 883 done */
-@media (max-width: 412px) and (max-height: 883px) {
-    body {
+    .swiper {
         width: 412px;
-        height: 883px;
     }
 
-    .main-container {
+    .cards,
+    .cards img {
         max-width: 412px;
         width: 100%;
     }
 }
 
 
-/* 393 x 851 done */
+/* 393 x 852 */
 @media (max-width: 393px) {
     body {
         width: 393px;
-        height: 698px;
+
     }
 
     .main-container {
@@ -592,7 +654,7 @@
     }
 
     .button:last-child {
-        margin-bottom: 80px;
+        margin-bottom: 250px;
     }
 
     h2 {
@@ -604,6 +666,7 @@
     h3 {
         margin-left: 114px;
     }
+
 
     .progress-bar {
         max-width: 336px;
@@ -622,7 +685,13 @@
     }
 
     .swiper {
-        width: 375px;
+        width: 393px;
+    }
+
+    .cards,
+    .cards img {
+        max-width: 393px;
+        width: 100%;
     }
 
     .discuss-header {
@@ -649,9 +718,6 @@
         margin-bottom: 80px;
     }
 
-    .plan-db-header {
-        margin-bottom: 80px !important;
-    }
 
     .email-header {
         margin-bottom: 25px;
@@ -679,11 +745,11 @@
 }
 
 
-/* 390 x 844 done*/
+/* 390 x 844 */
 @media (max-width: 390px) {
     body {
         width: 390px;
-        height: 615px;
+
     }
 
     .main-container {
@@ -714,6 +780,10 @@
         margin-bottom: 220px;
     }
 
+    .button:last-child {
+        margin-bottom: 255px;
+    }
+
     .birthdate-header {
         margin-bottom: 45px;
     }
@@ -723,7 +793,7 @@
     }
 
     .time-input-header {
-        margin-bottom: 13px;
+        margin-bottom: 50px;
     }
 
     .goals-header {
@@ -789,7 +859,7 @@
 
     .icon-screen-header.no-screen {
         max-width: 330px;
-        margin-bottom: 10px;
+        margin-bottom: 35px;
     }
 
     .progress-bar {
@@ -824,13 +894,27 @@
     .icon-screen-info.heart {
         margin-bottom: 32px;
     }
+
+    .swiper {
+        width: 390px;
+    }
+
+    .cards,
+    .cards img {
+        max-width: 390px;
+        width: 100%;
+    }
+
+    .social-header {
+        margin-bottom: 60px;
+    }
 }
 
-/* 375 x 812 done */
+/* 375 x 812 */
 @media (max-width: 375px) and (max-height: 812px) {
     body {
         width: 375px;
-        height: 588px;
+
     }
 
     .main-container {
@@ -870,26 +954,28 @@
     .total-price {
         max-width: 300px;
     }
-} 
 
-/* 375 x 635 standard */
-@media (max-width: 375px) and (max-height: 635px) {
-    body {
+    .swiper {
         width: 375px;
-        height: 635px;
     }
 
-    .main-container {
+    .cards,
+    .cards img {
         max-width: 375px;
         width: 100%;
     }
+
+    .email-header {
+        max-width: 335px;
+    }
 }
 
-/* 360 x 880 done */
+
+/* 360 x 880 */
 @media (max-width: 360px) and (max-height: 880px) {
     body {
         width: 360px;
-        height: 772px;
+
     }
 
     .main-container {
@@ -902,12 +988,15 @@
     .button:last-child {
         margin-bottom: 210px;
     }
-    .main-h5{
+
+    .main-h5 {
         margin-bottom: 60px;
     }
+
     .icon-screen-info {
         margin-bottom: 115px;
     }
+
     .icon-screen-info.heart {
         margin-bottom: 90px;
     }
@@ -915,38 +1004,50 @@
     h3 {
         margin-left: 100px;
     }
+
     .filter-screen {
-        height: 733px !important;
-        position: fixed;
+        height: 750px;
+
     }
 
-    .loading-db-header {
-        margin-bottom: 250px !important;
+    #loading-db-header {
+        margin-bottom: 250px;
     }
 
-    .plan-db-header {
-        margin-bottom: 180px ;
+    #plan-db-info {
+        margin-bottom: 180px;
     }
 
     .email-header {
         max-width: 320px;
         margin-bottom: 110px;
     }
+
     .price-info {
         margin-bottom: 40px;
     }
+
     .price-description {
         margin-bottom: 130px;
     }
 
+    .swiper {
+        width: 360px;
+    }
+
+    .cards,
+    .cards img {
+        max-width: 360px;
+        width: 100%;
+    }
 
 }
 
-/* 360 x 804 done */
+/* 360 x 804  */
 @media (max-width: 360px) and (max-height: 804px) {
     body {
         width: 360px;
-        height: 700px;
+
     }
 
     .main-container {
@@ -955,53 +1056,60 @@
         margin-top: 20px;
 
     }
+
     .button,
-    .birth input{
+    .birth input {
         max-width: 330px !important;
         width: 100%;
     }
-    .button:last-child {
-        margin-bottom: 140px;
-    }
+
     .button .button-text,
     .birth input {
         font-size: 20px;
     }
-    .main-h5{
+
+    .main-h5 {
         margin-bottom: 70px;
     }
 
-    .filter{
+    .filter {
         top: 185px;
     }
+
     .icon-screen-info {
         margin-bottom: 100px;
     }
+
     .help-header {
         max-width: 320px;
     }
+
     .icon-screen-info.heart {
         margin-bottom: 75px;
     }
+
     .icon-screen-header.no-screen {
         margin-bottom: 20px;
     }
+
     .price-info {
         margin-bottom: 40px;
     }
+
     .int-emotional-header {
         max-width: 320px;
     }
-     .plan-db-header {
-        margin-bottom: 130px !important;
-    }
-} 
 
-/* 360 x 800  done */
+    #plan-db-info {
+        margin-bottom: 130px;
+    }
+}
+
+/* 360 x 800  */
 @media (max-width: 360px) and (max-height: 800px) {
     body {
         width: 360px;
-        height: 696px;
+
     }
 
     .main-container {
@@ -1053,8 +1161,8 @@
     }
 
     .filter-screen {
-        height: 652px;
-        position: fixed;
+        height: 750px;
+
     }
 
     .choose-card-header {
@@ -1063,7 +1171,10 @@
 
     .add-card-header {
         margin-bottom: 55px;
+        max-width: 328px;
+        width: 100%;
     }
+
 
     .age-header {
         margin-bottom: 113px;
@@ -1073,7 +1184,7 @@
         margin-bottom: 72px;
     }
 
-    .loading-db-header {
+    #loading-db-header {
         margin: 80px auto;
     }
 
@@ -1109,7 +1220,7 @@
         margin-bottom: 60px;
     }
 
-    .plan-db-header {
+    #plan-db-info {
         margin: 75px auto;
     }
 
@@ -1146,13 +1257,13 @@
         margin-bottom: 20px ;
     } */
 
-} 
+}
 
-/* 360 x 780 done */
+/* 360 x 780 */
 @media (max-width: 360px) and (max-height: 780px) {
     body {
         width: 360px;
-        height: 674px;
+
     }
 
     .main-container {
@@ -1175,9 +1286,7 @@
         margin: 10px auto;
     }
 
-    .button:last-child {
-        margin-bottom: 130px;
-    }
+
 
 
     h5,
@@ -1222,6 +1331,7 @@
 
     h3 {
         margin-left: 75px;
+        font-size: 20px;
     }
 
 
@@ -1278,7 +1388,9 @@
     }
 
 
-
+    #next-db-header {
+        max-width: 330px;
+    }
 
 
 
@@ -1290,10 +1402,6 @@
         top: 180px;
     }
 
-    .filter-screen {
-        height: 635px;
-        position: fixed;
-    }
 
 
 
@@ -1308,18 +1416,21 @@
 
     .age-header {
         margin-bottom: 155px;
+        max-width: 318px;
     }
 
     .temperament-header {
         margin-bottom: 60px;
     }
 
-    .loading-db-header {
-        margin: 80px auto;
+    #loading-db-header {
+        margin: 80px auto 200px;
     }
+
     #mut-discuss-header {
         margin-bottom: 215px;
     }
+
     .discuss-header {
         margin-bottom: 233px;
     }
@@ -1335,9 +1446,11 @@
     .icon-screen-info.heart {
         margin-bottom: 70px;
     }
+
     .icon-screen-header.no-screen {
         margin-bottom: 50px;
     }
+
     .decision-header {
         margin-bottom: 180px;
     }
@@ -1351,8 +1464,8 @@
         margin-bottom: 60px;
     }
 
-    .plan-db-header {
-        margin: 80px auto !important;
+    #plan-db-info {
+        margin: 80px auto 250px;
     }
 
 
@@ -1372,7 +1485,7 @@
 
     .popular-choice {
         margin-bottom: 60px;
-        ;
+
     }
 
     .price-description {
@@ -1396,11 +1509,10 @@
 }
 
 
-/* 320 x 568 done*/
-@media (max-width: 320px) and (max-height: 568px){
+/* 320 x 568 */
+@media (max-width: 320px) and (max-height: 568px) {
     body {
         width: 320px;
-        height: 437px;
     }
 
     .main-container {
@@ -1449,7 +1561,7 @@
 
 
     .button:last-child {
-        margin-bottom: 50px;
+        margin-bottom: 170px;
     }
 
     .header {
@@ -1558,7 +1670,7 @@
         margin-bottom: 20px;
         max-width: 250px;
         font-size: 20px;
-         line-height: 22px;
+        line-height: 22px;
     }
 
     .swiper {
@@ -1568,7 +1680,7 @@
     .swiper-slide,
     .swiper-slide img {
         width: 120px !important;
-        
+
     }
 
     .swiper-slide {
@@ -1586,10 +1698,6 @@
         height: 140px;
     }
 
-    .filter-screen {
-        height: 396px;
-        position: fixed;
-    }
 
     .add-card-header {
         font-size: 18px;
@@ -1622,9 +1730,10 @@
         margin-bottom: 10px;
         max-width: 280px;
         font-size: 18px;
-    line-height: 20px;
+        line-height: 20px;
     }
-    .discuss-header{
+
+    .discuss-header {
         max-width: 280px !important;
         width: 100%;
     }
@@ -1638,11 +1747,11 @@
         margin-bottom: 70px;
     }
 
-    .loading-db-header {
+    #loading-db-header {
         max-width: 288px;
         width: 100%;
         line-height: 20px;
-        margin:30px auto;
+
     }
 
     .discuss-header {
@@ -1690,8 +1799,8 @@
         max-width: 280px;
     }
 
-    .plan-db-header {
-        margin:20px !important;
+    #plan-db-info {
+        margin: 0 auto 200px;
     }
 
     .plan-load-info {
@@ -1860,4 +1969,4 @@
         margin-bottom: 20px;
         max-width: 280px;
     }
-} 
+}
