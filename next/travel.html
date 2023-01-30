@@ -51,12 +51,26 @@
     </div>
 
     <div class="main-container test">
-        <div class="progress-bar progress-bar-2-done">
+        <div class="progress-bar progress-bar-2">
             <div class="number-active">
                 <div class="number-active-item">1</div>
                 <div class="number-active-item">2</div>
             </div>
+        
+            <div class="ldBar" id="progress2" data-value="50" data-preset="line" data-transition-in="true" data-type="stroke"
+            data-duration="1" style="width: 100%; height: auto;">
+            </div>
+        
+            <div class="number-next">
+                <div class="number-next-item">3</div>
+                <div class="number-next-item">4</div>
+            </div>
         </div>
+        <script>
+            var bar3 = new ldBar("#progress2");
+            var bar4 = document.getElementById('progress2').ldBar;
+            bar3.set(50);
+        </script>
 
         <h5>Психологический профиль</h5>
         <h2 class="int-emotional-header new-header">Готовы ли вы прямо сейчас отправиться в путешествие?</h2>

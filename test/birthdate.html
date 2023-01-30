@@ -49,20 +49,26 @@
     </div>
 
     <div class="main-container test">
-        <div class="progress-bar progress-bar-2">
+        <div class="progress-bar progress-bar-1">
             <div class="number-active">
                 <div class="number-active-item">1</div>
-                <div class="number-active-item">2</div>
             </div>
         
-            <div class="ldBar" data-value="50" data-preset="line" style="width: 100%; height: auto;">
+            <div class="ldBar" id="progress1" data-value="25" data-transition-in="true" data-type="stroke"
+            data-duration="1" data-preset="line" style="width: 100%; height: auto;">
             </div>
         
             <div class="number-next">
+                <div class="number-next-item">2</div>
                 <div class="number-next-item">3</div>
                 <div class="number-next-item">4</div>
             </div>
         </div>
+        <script>
+            var bar1 = new ldBar("#progress1");
+            var bar2 = document.getElementById('progress1').ldBar;
+            bar1.set(25);
+        </script>
 
         <h5>Профиль</h5>
         <h2 class="birthdate-header">Дата рождения</h2>
